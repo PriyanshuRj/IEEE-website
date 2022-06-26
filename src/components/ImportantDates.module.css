@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap");
+
+.horizontalCutText{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: "Catamaran", sans-serif;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(270deg, #170d48, #299edd 50%, transparent 50%), -webkit-repeating-linear-gradient(90deg, transparent, transparent 3%, white 3%, white 6%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 6px 6px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+
+.YearlyTimeline{ font-family: 'Poppins', sans-serif; }
+        .YearlyTimeline:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .YearlyTimeline .timeLine{
+            width: calc(50% + 17px);
+            padding: 0 30px 30px 0;
+            float: left; 
+            position: relative;
+        }
+        .YearlyTimeline .timeLine:before,
+        .YearlyTimeline .timeLine:after{
+            content: '';
+            height: 60px;
+            width: 2px;
+            border-left: 2px solid grey;
+            transform: rotate(-45deg);
+            position: absolute;
+            right: 30px;
+            bottom: 0;
+        }
+        .YearlyTimeline .timeLine:after{
+            background-color: #fff;
+            height: 20px;
+            width: 20px;
+            border: 6px solid grey;
+            border-radius: 50%;
+            right: 0;
+        }   
+        .YearlyTimeline .timelineContent{
+            color: #555;
+            background: grey;
+            text-align: center;
+            min-height: 170px;
+            padding: 30px 35px 35px;
+            border-radius: 15px 15px 0 15px;
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+        .YearlyTimeline .timelineContent:before{
+            content: '';
+            background-color: #fff;
+            position: absolute;
+            left: 17px;
+            right: 17px;
+            top: 17px;
+            bottom: 17px;
+            z-index: -1;
+        }
+        .YearlyTimeline .timelineContent:hover{ text-decoration: none; }
+        .YearlyTimeline .timelineIcon{
+            color: #777;
+            font-size: 35px;
+        }
+        .YearlyTimeline .title{
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 0 0 8px;
+        }
+        .YearlyTimeline .description{
+            color: black;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            line-height: 18px;
+            margin: 0;
+        }
+        .YearlyTimeline .timeLine:nth-child(even){
+            padding: 0 0 30px 30px;
+            float: right;
+        }
+        .YearlyTimeline .timeLine:nth-child(even):before{
+            transform: rotate(45deg);
+            right: auto;
+            left: 30px;
+        }
+        .YearlyTimeline .timeLine:nth-child(even):after{
+            right: auto;
+            left: 0;
+        }
+        .YearlyTimeline .timeLine:nth-child(even) .timelineContent{ border-radius: 15px 15px 15px 0; }
+        .YearlyTimeline .timeLine:nth-child(4n+2):before,
+        .YearlyTimeline .timeLine:nth-child(4n+2):after{
+            border-color: orangered;
+        }
+        .YearlyTimeline .timeLine:nth-child(4n+2) .timelineContent{
+            background: orangered;
+        }
+        .Yearlytimeline .timeLine:nth-child(4n+3):before,
+        .YearlyTimeline .timeLine:nth-child(4n+3):after{
+            border-color: navy;
+        }
+        .YearlyTimeline .timeLine:nth-child(4n+3) .timelineContent{
+            background: navy;
+        }
+        .YearlyTimeline .timeLine:nth-child(4n+4):before,
+        .YearlyTimeline .timeLine:nth-child(4n+4):after{
+            border-color: #ffd670;
+        }
+        .YearlyTimeline .timeLine:nth-child(4n+4) .timelineContent{
+            background:#ffd670;
+        }
+        @media screen and (max-width:767px){
+            .YearlyTimeline .timeLine{
+                width: 100%;
+                padding: 30px 0 0 30px;
+                margin: 0 0 20px;
+            }   
+            .YearlyTimeline .timeLine:before,
+            .YearlyTimeline .timeLine:nth-child(even):before{
+                transform: rotate(-45deg);
+                bottom: auto;
+                top: 0;
+                right: auto;
+                left: 30px;
+            }
+            .YearlyTimeline .timeLine:after,
+            .YearlyTimeline .timeLine:nth-child(even):after{
+                bottom: auto;
+                top: 0;
+                right: auto;
+                left: 0;
+            }
+            .YearlyTimeline .timeLineContent,
+            .YearlyTimeline .timeLine:nth-child(even) .timelineContent{
+                border-radius: 0 15px 15px 15px;
+            }
+        }

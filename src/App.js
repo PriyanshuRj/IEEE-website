@@ -5,6 +5,7 @@ import Author from "./components/Authors";
 import Hero from "./components/Hero";
 import Program from "./components/Programs";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 function App() {
   return (
     <div className="App">

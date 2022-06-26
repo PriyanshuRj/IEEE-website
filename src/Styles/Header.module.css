@@ -1,0 +1,21 @@
+.navdiv{
+    background-color: #B2BEB5 !important;
+}
+.navItem{
+    color:white !important;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    padding-left: 10px;
+    padding-left: 10px;
+}
+.navItem:hover{
+    color:rgb(212, 212, 212) !important;
+    background-color: #717973 !important;
+}
+.navHead{
+    color:white !important;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    font-family: "Catamaran", sans-serif;
+
+}

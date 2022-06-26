@@ -4,9 +4,11 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import EsdcIntro from './EsdcIntro';
+import ImportantDates from './ImportantDates'
 export default function Header() {
   return (
+    <>
     <Navbar bg="light" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#">IEE</Navbar.Brand>
@@ -48,6 +50,9 @@ export default function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <EsdcIntro />
+    <ImportantDates/>
+    </>
   );
 }
 

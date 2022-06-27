@@ -11,7 +11,7 @@ function App() {
   return (
     <div >
       <Header/>
-      <div className="m-4">
+      <div className="">
 
 
       <Hero />

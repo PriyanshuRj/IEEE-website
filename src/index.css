@@ -11,14 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a{
+  text-decoration:none !important;
+}
 .nav-item{
   margin: 0px !important;
   padding-left: 0px !important;
   height: max-content !important;
+  text-decoration: none !important;
+
+}
+.dropdown-item{
+  text-decoration: none !important;
+
 }
 .nav-link{
   color:white !important;
-  
+  text-decoration: none !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
   font-weight: 500 !important;

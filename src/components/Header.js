@@ -24,6 +24,33 @@ export default function Header() {
               <Nav.Link className={Styles.navItem + " h5"} href="#action1">
                 Home
               </Nav.Link>
+
+              <NavDropdown
+                className={Styles.navItem + "  h5"}
+                title="Committee"
+                id="basic-nav-dropdown"
+              >
+                <NavDropdown.Item href="/">Action</NavDropdown.Item>
+                <Link to="/organizer">
+                <NavDropdown.Item href="/organizer">
+                Orgainizing Committee
+                </NavDropdown.Item>
+                </Link>
+                <Link to="/technical">
+
+                <NavDropdown.Item href="/">
+                Technical Programming Committee
+                </NavDropdown.Item>
+                </Link>
+                <Link to="/other">
+
+                <NavDropdown.Item href="/">
+                Other Committee
+                </NavDropdown.Item>
+                </Link>
+                
+              </NavDropdown>
+
               <NavDropdown
                 className={Styles.navItem + "  h5"}
                 title="About"

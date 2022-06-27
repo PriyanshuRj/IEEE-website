@@ -8,6 +8,8 @@ import Policies from "./pages/Policies";
 import Program from "./pages/Program";
 import Tutorial from "./pages/Tutorial";
 import KeyNote from "./pages/KeyNote";
+import OtherComitee from "./pages/OtherComitee";
+import TechnicalCommitee from "./pages/TechnicalCommitee";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { Fragment } from "react";
@@ -31,9 +33,10 @@ function App() {
       <Route exact path="/polices" element={<Policies />} />
       <Route exact path="/keynote" element={<KeyNote />} />
       <Route exact path="/tutorial" element={<Tutorial />} />
-      <Route exact path="/Program" element={<Program />} />
+      <Route exact path="/program" element={<Program />} />
+      <Route exact path="/technical" element={<TechnicalCommitee />} />
 
-      {/* <Route exact path="/organizer" element={<Organizers />} /> */}
+      <Route exact path="/other" element={<OtherComitee />} />
  
        
     

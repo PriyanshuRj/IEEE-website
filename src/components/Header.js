@@ -12,7 +12,7 @@ export default function Header() {
       <Navbar expand="lg" className={Styles.navdiv}>
         <Container fluid>
           <Navbar.Brand href="#" className={Styles.navHead}>
-            IEE
+            IEEE
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -91,8 +91,6 @@ export default function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      {/* <EsdcIntro />
-      <ImportantDates /> */}
     </>
   );
 }

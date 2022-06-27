@@ -36,8 +36,7 @@ function App() {
       {/* <Route exact path="/organizer" element={<Organizers />} /> */}
  
        
-     
-
+    
     </Routes>
 
     <Footer/>

@@ -7,7 +7,13 @@
     transition: all 0.2s ease-in-out;
     padding-left: 10px;
     padding-left: 10px;
+    margin: 1rem;
 }
+@media (max-width: 984px) {
+    .navItem{
+        margin: 0rem;
+    }
+  }
 .navItem:hover{
     color:rgb(212, 212, 212) !important;
     background-color: #717973 !important;
@@ -17,5 +23,7 @@
     font-size: 32px !important;
     font-weight: 700 !important;
     font-family: "Catamaran", sans-serif;
+    padding-right: 1rem;
+    border-right: 2px solid white;
 
 }

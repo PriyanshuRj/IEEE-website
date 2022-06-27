@@ -5,6 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import EsdcIntro from "./EsdcIntro";
 import ImportantDates from "./ImportantDates";
 import Styles from "../Styles/Header.module.css";
+import {Link} from "react-router-dom";
 export default function Header() {
   return (
     <>
@@ -29,19 +30,30 @@ export default function Header() {
                 id="basic-nav-dropdown"
               >
                 <NavDropdown.Item href="/">Action</NavDropdown.Item>
-                <NavDropdown.Item href="/">
+                <Link to="/organizer">
+                <NavDropdown.Item href="/organizer">
                   Organizers
                 </NavDropdown.Item>
+                </Link>
+                <Link to="/history">
+
                 <NavDropdown.Item href="/">
                   History
                 </NavDropdown.Item>
+                </Link>
+                <Link to="/trackchair">
+
                 <NavDropdown.Item href="/">
                   Track Chairs
                 </NavDropdown.Item>
+                </Link>
                 <NavDropdown.Divider />
+                <Link to="polices">
+
                 <NavDropdown.Item href="/">
                   IEEE Policies
                 </NavDropdown.Item>
+                </Link>
               </NavDropdown>
               <NavDropdown
                 className={Styles.navItem + "  h5"}
@@ -49,16 +61,24 @@ export default function Header() {
                 id="basic-nav-dropdown"
               >
                 <NavDropdown.Item href="/">Program</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <Link to="/program">
+                
+                <NavDropdown.Item href="/">
                   Confrence Program
                 </NavDropdown.Item>
+                </Link>
+                <Link to="keynote">
+
                 <NavDropdown.Item href="/">
                   Keynotes
                 </NavDropdown.Item>
-                
+                </Link>
+                <Link to="tutorial">
+
                 <NavDropdown.Item href="/">
                   Tutorial
                 </NavDropdown.Item>
+                </Link>
               </NavDropdown>
 
               <Nav.Link className={Styles.navItem + " h5"} href="#">
@@ -71,8 +91,8 @@ export default function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <EsdcIntro />
-      <ImportantDates />
+      {/* <EsdcIntro />
+      <ImportantDates /> */}
     </>
   );
 }

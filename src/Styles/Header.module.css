@@ -1,8 +1,8 @@
 .navdiv{
-    background-color: #B2BEB5 !important;
+    background-color: #f3f3f3 !important;
 }
 .navItem{
-    color:white !important;
+    color:rgb(5, 1, 1) !important;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
     padding-left: 10px;
@@ -15,15 +15,16 @@
     }
   }
 .navItem:hover{
-    color:rgb(212, 212, 212) !important;
-    background-color: #717973 !important;
+    background-color:#f44949 !important;
+    
 }
 .navHead{
-    color:white !important;
+    
+    color:#f44949  !important;
     font-size: 32px !important;
     font-weight: 700 !important;
     font-family: "Catamaran", sans-serif;
     padding-right: 1rem;
-    border-right: 2px solid white;
+    border-right: 2px solid #f44949 ;
 
 }

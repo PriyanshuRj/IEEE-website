@@ -1,35 +1,38 @@
+.work_company {
+  	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .work_company .single_logo img {
     width: 100%;
   }
 }
 .work_company {
-  padding-top: 195px;
-  padding-bottom: 180px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .work_company {
-    padding-top: 150px;
-    padding-bottom: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .work_company {
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .work_company {
-    padding-top: 65px;
-    padding-bottom: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 @media (max-width: 575px) {
   .work_company {
-    padding-top: 65px;
-    padding-bottom: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 
@@ -62,8 +65,8 @@
 }
 
 .single_logo img {
-  height: 150px;
-  width: 200px;
+  height: 100px;
+  width: 150px;
   margin: 0 20px;
 }
 

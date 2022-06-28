@@ -1,0 +1,68 @@
+.footer_section {
+	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+
+.footer_text {
+	text-align: center;
+	padding-top: 60px;
+}
+
+.footer_text .ft_logo {
+	margin-bottom: 20px;
+}
+
+.footer_text .ft_logo a {
+	display: inline-block;
+}
+.footer_text .ft_logo .footer_logo img {
+	width: 200px;
+}
+
+.footer_text ul {
+	margin-bottom: 18px;
+}
+
+.footer_text ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 52px;
+}
+
+.footer_text ul li:last-child {
+	margin-right: 0;
+}
+
+.footer_text ul li a {
+	font-size: 18px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* .footer_text ul li a:hover {
+	color: #fff;
+} */
+
+
+
+.footer_text .ft_social a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.footer_text .ft_social a:last-child {
+	margin-right: 0;
+}

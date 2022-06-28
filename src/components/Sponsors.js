@@ -6,13 +6,13 @@ import sricity from '../Images/sricity-logo.png';
 
 export default function Sponsors() {
     return (
-        <section className={styles.work_company} style={{background: "#2e0e8c"}}>
+        <section className={styles.work_company}>
         <Container>
             <Row style={{alignItems: 'center'}}>
                 <div className="col-lg-5 col-md-8">
                     <div className={styles.section_tittle + " mb-50"}>
-                        <h2>Our Top Genaral Sponsors.</h2>
-                        <p>There arge many variations ohf passages of sorem gp ilable, but the majority have ssorem gp iluffe.</p>
+                        <h2>Conference Sponsors</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia possimus voluptas sequi odio aliquam maxime quo, doloribus iure perspiciatis illum ratione nam, incidunt est. Ab quas nam sit eos expedita!</p>
                     </div>
                 </div>
                 <div className="col-lg-7">

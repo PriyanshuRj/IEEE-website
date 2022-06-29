@@ -1,235 +1,158 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap");
+/* *{
+  font-family: "Saira Semi Condensed", sans-serif;
+  transition: all 0.5s ease;
+} */
+/* body{
+  background: url('./abt1-1-1.jpg') no-repeat;
+  height:80%;
+  width:100%;
+} */
 
-.conatctUs {
-  background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
-  font-size: 12px;
-}
 
-.conatcUs .app_form_control {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  letter-spacing: 1.4px;
-}
-
-.background {
-  display: flex;
-  min-height: 100vh;
-}
-
-.container {
-  flex: 0 1 700px;
-  margin: auto;
-  padding: 10px;
-}
-
-.screen {
+.blurredBg{
+  font-family: "Saira Semi Condensed", sans-serif;
+  transition: all 0.5s ease;
   position: relative;
-  background: #3e3e3e;
-  border-radius: 15px;
-}
-
-.screen:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 20px;
-  right: 20px;
-  bottom: 0;
-  border-radius: 15px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  z-index: -1;
-}
-
-.screen-header {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  background: #4d4d4f;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.screen-header-left {
-  margin-right: auto;
-}
-
-.screen-header-button {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin-right: 3px;
-  border-radius: 8px;
-  background: white;
-}
-
-.screen-header-button.close {
-  background: #ed1c6f;
-}
-
-.screen-header-button.maximize {
-  background: #e8e925;
-}
-
-.screen-header-button.minimize {
-  background: #74c54f;
-}
-
-.screen-header-right {
-  display: flex;
-}
-
-.screen-header-ellipsis {
-  width: 3px;
-  height: 3px;
-  margin-left: 2px;
-  border-radius: 8px;
-  background: #999;
-}
-
-.screen_body {
-  display: flex;
-}
-
-.screen_body-item {
-  flex: 1;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-.app_title {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  color: #ea1d6f;
-  font-size: 26px;
-}
-
-.app_title:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 25px;
-  height: 4px;
-  background: #ea1d6f;
-}
-
-.app_contact {
-  margin-top: auto;
-  font-size: 8px;
-  color: #888;
-}
-
-.app_form_group {
-  margin-bottom: 15px;
-}
-
-.message {
-    margin-bottom: 15px;
-  margin-top: 40px;
-}
-
-.buttons {
-  margin-bottom: 0;
-  text-align: right;
-}
-
-.app_form-control {
+  background: linear-gradient(to top, rgba(233, 237, 237, 0.52), rgba(67, 52, 60, 0.73)), url('../Images/clg3.jpeg') no-repeat center fixed;
   width: 100%;
-  padding: 10px 0;
-  background: none;
-  border: none;
-  border-bottom: 1px solid #666;
-  color: #ddd;
-  font-size: 14px;
-  text-transform: uppercase;
-  outline: none;
-  transition: border-color 0.2s;
+  height:700px;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);  
+  z-index: -1;
+  /* position: fixed; */
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
 }
-
-.app_form-control::placeholder {
-  color: #666;
-}
-
-.app_form-control:focus {
-  border-bottom-color: #ddd;
-}
-
-.app_form_button {
-  background: none;
-  border: none;
-  color: #ea1d6f;
-  font-size: 14px;
-  cursor: pointer;
-  outline: none;
-}
-
-.app_form_button:hover {
-  color: #b9134f;
-}
-
-.credits {
+.contactUs {
+ 
+  width: 100%;
+   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 0 16px;
   display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  color: #ffa4bd;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
+  height:600px;
+    font-family: sans-serif;
+    overflow-y: hidden;
 }
-
-.credits-link {
+.title{
+  font-size:30px;
+  line-height:1.25em;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight: 900;
+  letter-spacing:2px;
+  color:black;
+  padding-bottom: 15px;
+}
+.contactForm {
+ 
+  width: 400px;
   display: flex;
+  flex-flow: column wrap;
   align-items: center;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
+  justify-content: center;
+}
+.contactForm div,
+.contactForm .contactLabel,
+.contactForm .contactInput,
+.contactForm .contactTextarea {
+  width: 100%;
 }
 
-.dribbble {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
+.field:nth-of-type(3) {
+  margin: 16px 0;
 }
 
-@media screen and (max-width: 520px) {
-  .screen_body {
-    flex-direction: column;
-  }
-
-  .screen_body-item.left {
-    margin-bottom: 30px;
-  }
-
-  .app_title {
-    flex-direction: row;
-  }
-
-  .app_title span {
-    margin-right: 12px;
-  }
-
-  .app_title:after {
-    display: none;
-  }
+.contactLabel,
+.contactInput,
+.contactTextarea {
+  padding: 8px;
 }
 
-@media screen and (max-width: 600px) {
-  .screen_body {
-    padding: 40px;
-  }
+.contactLabel,
+[placeholder] {
+  color: rgb(0, 0, 0);
+}
 
-  .screen_body-item {
-    padding: 0;
+.contactLabel i {
+  margin: 0 10px 0 0;
+}
+
+.field:focus-within .contactLabel {
+  color: #000;
+  letter-spacing: 2px;
+}
+/* .field:focus-within .contactInput {
+  color: #000;
+  letter-spacing: 2px;
+} */
+
+.contactInput,
+.contactTextarea {
+  background: transparent;
+  
+  border-radius: 4px;
+  box-shadow: 0 8px 6px -6px rgb(3, 0, 0);
+}
+.contactInput:focus,
+.contactTextarea:focus {
+  background: transparent;
+  box-shadow: none;
+}
+
+.contactTextarea {
+  height:150px;
+  resize: vertical;
+}
+.contactTextarea::-webkit-scrollbar {
+  width: 0;
+}
+
+button {
+  background: #2f4ad0;
+  margin: 16px 0 50px 0;
+  padding: 8px 16px;
+  color: rgb(4, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 8px 6px -6px rgb(10, 8, 8);
+}
+button:hover {
+  letter-spacing: 2px;
+  box-shadow: none;
+}
+
+.social-media {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+:not(.social-media) {
+  font-family: "Saira Semi Condensed", sans-serif;
+  transition: all 0.5s ease;
+}
+.social-media span {
+  font-size: 16px;
+}
+.social-media span .fas {
+  margin: 0 0 0 10px;
+}
+.social-media a {
+  color: #000;
+  font-size: 20px;
+}
+
+@media (max-width: 425px) {
+  .contactForm {
+    width: 100%;
   }
 }

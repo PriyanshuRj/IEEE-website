@@ -10,12 +10,12 @@
 }
 
 .ha_pic img {
-  min-width: 100%;
+  width: 100%;
   border-radius: 2px;
 }
 
 .ha_text {
-  padding-top: 74px;
+  /* padding-top: 74px; */
 }
 
 .ha_text h2 {

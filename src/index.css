@@ -1,55 +1,51 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-a{
-  text-decoration:none !important;
+a {
+  text-decoration: none !important;
 }
-.nav-item{
+.nav-item {
   margin: 0px !important;
   padding-left: 0px !important;
   height: max-content !important;
   text-decoration: none !important;
-
 }
-.dropdown-item{
+.dropdown-item {
   text-decoration: none !important;
-
 }
-.nav-link{
-  color:rgb(5, 1, 1) !important;
+.nav-link {
+  color: rgb(5, 1, 1) !important;
 
   text-decoration: none !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
   font-weight: 500 !important;
-line-height: 1.2 !important;
-  
+  line-height: 1.2 !important;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: #f7f7f7 !important;
-  
 }
-.dropdown-menu{
+.dropdown-menu {
   background-color: #e2e2e2 !important;
   color: rgb(0, 0, 0) !important;
 }
-.dropdown-item{
+.dropdown-item {
   color: rgb(0, 0, 0) !important;
 }
-.dropdown-item:hover{
+.dropdown-item:hover {
   background-color: #f44949 !important;
   color: white !important;
 }
-.dropdown-menu{
+.dropdown-menu {
   margin-top: 1rem !important;
 }

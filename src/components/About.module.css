@@ -1,70 +1,70 @@
 .home_about_section {
-    padding-top: 100px;
-	padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .ha_pic {
-	-webkit-box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
-	box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
-	margin-right: 30px;
+  -webkit-box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
+  box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
+  margin-right: 30px;
 }
 
 .ha_pic img {
-	min-width: 100%;
-	border-radius: 2px;
+  min-width: 100%;
+  border-radius: 2px;
 }
 
 .ha_text {
-	padding-top: 74px;
+  padding-top: 74px;
 }
 
 .ha_text h2 {
-	color: #171822;
-	font-size: 40px;
-	font-weight: 700;
-	margin-bottom: 32px;
-	font-family: "Work Sans", sans-serif;
+  color: #171822;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .ha_text p {
-	font-size: 16px;
-    font-family: "Work Sans", sans-serif;
-    color: #6a6b7c;
-    font-weight: 400;
-    line-height: 28px;
-    margin: 0 0 21px 0;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  color: #6a6b7c;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0 0 21px 0;
 }
 
 .ha_text ul {
-	margin-bottom: 27px;
+  margin-bottom: 27px;
 }
 
 .ha_text ul li {
-	list-style: none;
-	font-size: 16px;
-	line-height: 30px;
-	color: #6a6b7c;
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6a6b7c;
 }
 
 .ha_text ul li span {
-	color: #f44949;
+  color: #f44949;
 }
 
 .ha_text .ha_btn {
-	font-size: 16px;
-	color: #171822;
-    text-decoration: none;
-	font-weight: 600;
-	position: relative;
-    background-color: transparent;
+  font-size: 16px;
+  color: #171822;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  background-color: transparent;
 }
 
 .ha_text .ha_btn:before {
-	position: absolute;
-	left: 0;
-	bottom: -6px;
-	height: 2px;
-	width: 100%;
-	background: #f44949;
-	content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 2px;
+  width: 100%;
+  background: #f44949;
+  content: "";
 }

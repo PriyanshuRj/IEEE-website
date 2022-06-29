@@ -32,7 +32,7 @@ export default function Hero() {
           />
 
           <Carousel.Caption className={Styles.heroCaption}>
-          <div className={Styles.block}>
+            <div className={Styles.block}>
               <h1>IEEE</h1>
               <h2>Conference</h2>
               <h3>2022</h3>
@@ -52,7 +52,7 @@ export default function Hero() {
           />
 
           <Carousel.Caption className={Styles.heroCaption}>
-          <div className={Styles.block}>
+            <div className={Styles.block}>
               <h1>IEEE</h1>
               <h2>Conference</h2>
               <h3>2022</h3>

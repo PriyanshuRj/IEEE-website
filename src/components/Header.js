@@ -1,44 +1,43 @@
 import Container from "react-bootstrap/Container";
-import {useRef,useState } from "react";
+import { useRef, useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Styles from "../Styles/Header.module.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 export default function Header() {
-  const [ComiteeShow,setComiteeShow] = useState(false);
-  const [ComiteeShowBtn,setComiteeShowBtn] = useState(false);
-  const [ProgramShow,setProgramShow] = useState(false);
-  const [ProgramShowBtn,setProgramShowBtn] = useState(false);
-  const [AboutShow,setAboutShow] = useState(false);
-  const [AboutShowBtn,setAboutShowBtn] = useState(false);
-  function ComiteeBtn(){
-    setComiteeShowBtn(prevState => !prevState);
+  const [ComiteeShow, setComiteeShow] = useState(false);
+  const [ComiteeShowBtn, setComiteeShowBtn] = useState(false);
+  const [ProgramShow, setProgramShow] = useState(false);
+  const [ProgramShowBtn, setProgramShowBtn] = useState(false);
+  const [AboutShow, setAboutShow] = useState(false);
+  const [AboutShowBtn, setAboutShowBtn] = useState(false);
+  function ComiteeBtn() {
+    setComiteeShowBtn((prevState) => !prevState);
   }
-  function AboutBtn(){
-    setAboutShowBtn(prevState => !prevState);
+  function AboutBtn() {
+    setAboutShowBtn((prevState) => !prevState);
   }
-  function ProgramBtn(){
-    setProgramShowBtn(prevState => !prevState);
+  function ProgramBtn() {
+    setProgramShowBtn((prevState) => !prevState);
   }
-  function setIsShown(val){
+  function setIsShown(val) {
     setComiteeShow(val);
   }
-  function setIsShownAbout(val){
+  function setIsShownAbout(val) {
     setAboutShow(val);
-    
   }
-  function setIsShownProgram(val){
+  function setIsShownProgram(val) {
     setProgramShow(val);
   }
   return (
     <>
       <Navbar expand="lg" className={Styles.navdiv}>
         <Container fluid>
-        <Link to="/">
-          <Navbar.Brand href="/" className={Styles.navHead}>
-            IEEE
-          </Navbar.Brand>
+          <Link to="/">
+            <Navbar.Brand href="/" className={Styles.navHead}>
+              IEEE
+            </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -48,12 +47,12 @@ export default function Header() {
               navbarScroll
             >
               <Link to="/">
-              <Nav.Link className={Styles.navItem + " h5"} href="/">
-                Home
-              </Nav.Link>
+                <Nav.Link className={Styles.navItem + " h5"} href="/">
+                  Home
+                </Nav.Link>
               </Link>
               <NavDropdown
-                className={Styles.navItem + " show h5"}  
+                className={Styles.navItem + " show h5"}
                 show={ComiteeShowBtn || ComiteeShow}
                 title="Committee"
                 id="basic-nav-dropdown"
@@ -61,61 +60,46 @@ export default function Header() {
                 onMouseLeave={() => setIsShown(false)}
                 onClick={() => ComiteeBtn()}
               >
-                
                 <NavDropdown.Item href="/">Action</NavDropdown.Item>
                 <Link to="/organizer">
-                <NavDropdown.Item href="/organizer">
-                Orgainizing Committee
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/organizer">
+                    Orgainizing Committee
+                  </NavDropdown.Item>
                 </Link>
                 <Link to="/technical">
-
-                <NavDropdown.Item href="/">
-                Technical Programming Committee
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/">
+                    Technical Programming Committee
+                  </NavDropdown.Item>
                 </Link>
                 <Link to="/other">
-
-                <NavDropdown.Item href="/">
-                Other Committee
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/">Other Committee</NavDropdown.Item>
                 </Link>
-                
               </NavDropdown>
 
               <NavDropdown
                 className={Styles.navItem + "  h5"}
                 title="About"
                 id="basic-nav-dropdown"
-                show={ AboutShowBtn || AboutShow}
+                show={AboutShowBtn || AboutShow}
                 onMouseEnter={() => setIsShownAbout(true)}
                 onMouseLeave={() => setIsShownAbout(false)}
                 onClick={() => AboutBtn()}
               >
                 <NavDropdown.Item href="/">Action</NavDropdown.Item>
                 <Link to="/organizer">
-                <NavDropdown.Item href="/organizer">
-                  Organizers
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/organizer">
+                    Organizers
+                  </NavDropdown.Item>
                 </Link>
                 <Link to="/history">
-
-                <NavDropdown.Item href="/">
-                  History
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/">History</NavDropdown.Item>
                 </Link>
                 <Link to="/trackchair">
-
-                <NavDropdown.Item href="/">
-                  Track Chairs
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/">Track Chairs</NavDropdown.Item>
                 </Link>
                 <NavDropdown.Divider />
                 <Link to="polices">
-
-                <NavDropdown.Item href="/">
-                  IEEE Policies
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/">IEEE Policies</NavDropdown.Item>
                 </Link>
               </NavDropdown>
               <NavDropdown
@@ -125,26 +109,19 @@ export default function Header() {
                 show={ProgramShowBtn || ProgramShow}
                 onMouseEnter={() => setIsShownProgram(true)}
                 onMouseLeave={() => setIsShownProgram(false)}
-                onClick={()=>ProgramBtn()}
+                onClick={() => ProgramBtn()}
               >
                 <NavDropdown.Item href="/">Program</NavDropdown.Item>
                 <Link to="/program">
-                
-                <NavDropdown.Item href="/">
-                  Confrence Program
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/">
+                    Confrence Program
+                  </NavDropdown.Item>
                 </Link>
                 <Link to="keynote">
-
-                <NavDropdown.Item href="/">
-                  Keynotes
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/">Keynotes</NavDropdown.Item>
                 </Link>
                 <Link to="tutorial">
-
-                <NavDropdown.Item href="/">
-                  Tutorial
-                </NavDropdown.Item>
+                  <NavDropdown.Item href="/">Tutorial</NavDropdown.Item>
                 </Link>
               </NavDropdown>
 

@@ -10,10 +10,10 @@ export default function About() {
         <Row>
           <Col lg="6">
             <div className={styles.ha_pic}>
-              <img src={img1} alt="" />
+              <img src={img1} alt="" style={{width:"100%"}}/>
             </div>
           </Col>
-          <Col lg="6">
+          <Col lg="6" className="d-flex">
             <div className={styles.ha_text}>
               <h2>About Conference</h2>
               <p>

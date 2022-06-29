@@ -44,7 +44,7 @@
             transform: skewX(-20deg);
   }
   .textOverlay:after {
-    content: 'IEE';
+    content: 'IEEE';
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 215px;

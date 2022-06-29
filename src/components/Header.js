@@ -35,9 +35,11 @@ export default function Header() {
     <>
       <Navbar expand="lg" className={Styles.navdiv}>
         <Container fluid>
-          <Navbar.Brand href="#" className={Styles.navHead}>
+        <Link to="/">
+          <Navbar.Brand href="/" className={Styles.navHead}>
             IEEE
           </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -45,10 +47,11 @@ export default function Header() {
               style={{ minHeight: "50px", width: "100%", color: "black" }}
               navbarScroll
             >
-              <Nav.Link className={Styles.navItem + " h5"} href="#action1">
+              <Link to="/">
+              <Nav.Link className={Styles.navItem + " h5"} href="/">
                 Home
               </Nav.Link>
-
+              </Link>
               <NavDropdown
                 className={Styles.navItem + " show h5"}  
                 show={ComiteeShowBtn || ComiteeShow}

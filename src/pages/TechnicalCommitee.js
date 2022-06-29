@@ -6,62 +6,62 @@ const Technical =[
   {
     name: " Prof. Zheng-Hua Tan",
     post: "Aalborg University, Denmark",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical1.jpg",
   },
   {
     name: "Prof. Bhiksha Raj",
     post: "Carnegie Mellon University, USA",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical2.jpg",
   },
   {
     name: "Dr. Jai Gopal Pandey",
     post: "CSIR CEERI Pilani",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical3.jpg",
   },
   {
     name: "Dr. Amit Banerjee",
     post: "National University of Singapore",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical4.jpg",
   },
   {
     name: "Dr. Shiva Kumar Malapaka",
     post: "IIIT Bangalore",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical5.jpg",
   },
   {
     name: "Dr. Gopal Kamath",
     post: "BITS Hyderabad",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical6.jpg",
   },
   {
     name: "Dr. Matloob Khushi",
     post: "Univ. of Sydney, Australisa",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical7.jpg",
   },
   {
     name: "Mr. Vijay Subramanian",
     post: "Alstom",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical8.jpg",
   },
   {
     name: "Dr. Karthik Seemakurthy",
     post: "Lincoln, UK",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical9.jpg",
   },
   {
     name: "Mr. G Surender",
     post: "Xilinx",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical10.jpg",
   },
   {
     name: "Dr. Akshdeep Sarma",
     post: "CMET, Hyderabad",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical11.jpg",
   },
   {
     name: "Dr. Balakrishna Gokaraju",
     post: "NCATU, USA",
-    img: "OrganizersCommittee/cheifPatron.jpg",
+    img: "TechinalCommittee/Technical12.jpg",
   },
 ]
 

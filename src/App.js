@@ -10,6 +10,7 @@ import Tutorial from "./pages/Tutorial";
 import KeyNote from "./pages/KeyNote";
 import OtherComitee from "./pages/OtherComitee";
 import TechnicalCommitee from "./pages/TechnicalCommitee";
+import Author from "./pages/Author";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Fragment } from "react";
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/program" element={<Program />} />
           <Route exact path="/technical" element={<TechnicalCommitee />} />
           <Route exact path="/other" element={<OtherComitee />} />
+          <Route exact path="/author" element={<Author />} />
         </Routes>
         <Footer />
       </Router>

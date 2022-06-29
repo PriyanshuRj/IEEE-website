@@ -6,19 +6,19 @@ const ChiefPatron =[
   {
     name: "Prof. G Kannabiran",
     post: "Director of IIIT Sricity",
-    img: "../swarupbhunia.png",
+    img: "OrganizersCommittee/cheifPatron.jpg",
   }
 ]
 const GeneralCoChair1 = [
   {
     name: "Prof. Swarup Bhunia",
     post: "The University of Florida, USA ",
-    img: "../swarupbhunia.png",
+    img: "OrganizersCommittee/generalCo-chair1.jpg",
   },
   {
     name: "Dr. Hrishikesh Venkatraman",
     post: "IIIT Sricity",
-    img: "/swarupbhunia.png",
+    img: "OrganizersCommittee/generalCo-chair2.png",
   },
   
 ];
@@ -26,12 +26,12 @@ const GeneralCoChair2 = [
   {
     name: "Dr. Priyanka Dwivedi",
     post: "IIIT Sricity",
-    img: "../swarupbhunia.png",
+    img: "OrganizersCommittee/generalCo-chair3.png",
   },
   {
     name: "Prof. Jimson Mathew",
     post: "IIT Patna",
-    img: "/swarupbhunia.png",
+    img: "OrganizersCommittee/generalCo-chair4.png",
   },
   
 ];
@@ -39,29 +39,29 @@ const TechnicalChair1 =[
   {
     name: "Prof. Rita Singh",
     post: "Carnegie Mellon University, USA",
-    img: "../swarupbhunia.png",
+    img: "OrganizersCommittee/TPCo-chair1.png",
   },
   {
     name: "Prof. Justin Dauwels",
     post: "NTU Singapore",
-    img: "/swarupbhunia.png",
+    img: "OrganizersCommittee/TPCo-chair2.png",
   },
 ]
 const TechnicalChair2=[
   {
     name: "Dr. Swades De",
     post: "IIT Delhi",
-    img: "../swarupbhunia.png",
+    img: "OrganizersCommittee/TPCo-chair3.png",
   },
   {
     name: "Prof. Devendra Jalihal",
     post: "IIT Madras",
-    img: "/swarupbhunia.png",
+    img: "OrganizersCommittee/TPCo-chair4.png",
   },
   {
     name: "Dr. Rakesh Kumar Sanodiya",
     post: "IIIT Sri City",
-    img: "/swarupbhunia.png",
+    img: "OrganizersCommittee/TPCo-chair5.png",
   },
 ]
 
@@ -69,12 +69,12 @@ const TrackCochair=[
   {
     name: "Dr. Ram Bilas Pachori",
     post: "IIT Indore",
-    img: "/swarupbhunia.png",
+    img: "OrganizersCommittee/TrackCo-chair1.png",
   },
   {
     name: "Dr. Anish Chand T",
     post: "IIIT Sri City",
-    img: "/swarupbhunia.png",
+    img: "OrganizersCommittee/TrackCo-chair2.png",
   },
 ]
 export default function Organizers() {

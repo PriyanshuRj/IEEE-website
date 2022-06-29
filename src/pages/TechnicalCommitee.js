@@ -85,14 +85,6 @@ export default function TechnicalCommitee() {
             return <SpeakerCard speaker={speaker} key={index} />;
           })}
         </div>
-
-      
-        
-        
-        
-
-        
-
       </div>
     </div>
   );

@@ -1,0 +1,9 @@
+.mainSection{
+    margin-top: 4rem;
+}
+.mainSection h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+}

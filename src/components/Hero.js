@@ -14,8 +14,8 @@ export default function Hero() {
           <Carousel.Caption>
             <div className={Styles.block}>
               <h1>IEEE</h1>
-              <h3>11th IEEE International Conference on ESDC</h3>
-              <h3>2023</h3>
+              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>2023</h2>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
@@ -34,8 +34,8 @@ export default function Hero() {
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
               <h1>IEEE</h1>
-              <h3>11th IEEE International Conference on ESDC</h3>
-              <h3>2023</h3>
+              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>2023</h2>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
@@ -54,8 +54,8 @@ export default function Hero() {
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
               <h1>IEEE</h1>
-              <h3>11th IEEE International Conference on ESDC</h3>
-              <h3>2023</h3>
+              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>2023</h2>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India

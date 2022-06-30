@@ -1,155 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap");
-/* *{
-  font-family: "Saira Semi Condensed", sans-serif;
-  transition: all 0.5s ease;
-} */
-/* body{
-  background: url('./abt1-1-1.jpg') no-repeat;
-  height:80%;
-  width:100%;
-} */
 
-
-.blurredBg{
-  font-family: "Saira Semi Condensed", sans-serif;
-  transition: all 0.5s ease;
-  position: relative;
-  background: linear-gradient(to top, rgba(233, 237, 237, 0.52), rgba(67, 52, 60, 0.73)), url('../Images/clg3.jpeg') no-repeat center fixed;
-  width: 100%;
-  height:700px;
-  filter: blur(6px);
-  -webkit-filter: blur(6px);  
-  z-index: -1;
-  /* position: fixed; */
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position:center;
-}
-.contactUs {
- 
-  width: 100%;
-   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  padding: 0 16px;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: center;
-  height:600px;
-    font-family: sans-serif;
-    overflow-y: hidden;
-}
-.title{
-  font-size:30px;
-  line-height:1.25em;
-  text-align:center;
-  text-transform:uppercase;
-  font-weight: 900;
-  letter-spacing:2px;
-  color:black;
-  padding-bottom: 15px;
-}
-.contactForm {
- 
-  width: 400px;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-}
-.contactForm div,
-.contactForm .contactLabel,
-.contactForm .contactInput,
-.contactForm .contactTextarea {
-  width: 100%;
-}
-
-.field:nth-of-type(3) {
-  margin: 16px 0;
-}
-
-.contactLabel,
-.contactInput,
-.contactTextarea {
-  padding: 8px;
-}
-
-.contactLabel,
-[placeholder] {
-  color: rgb(0, 0, 0);
-}
-
-.contactLabel i {
-  margin: 0 10px 0 0;
-}
-
-.field:focus-within .contactLabel {
-  color: #000;
-  letter-spacing: 2px;
-}
-/* .field:focus-within .contactInput {
-  color: #000;
-  letter-spacing: 2px;
-} */
-
-.contactInput,
-.contactTextarea {
-  background: transparent;
-  
-  border-radius: 4px;
-  box-shadow: 0 8px 6px -6px rgb(3, 0, 0);
-}
-.contactInput:focus,
-.contactTextarea:focus {
-  background: transparent;
-  box-shadow: none;
-}
-
-.contactTextarea {
-  height:150px;
-  resize: vertical;
-}
-.contactTextarea::-webkit-scrollbar {
-  width: 0;
-}
-
-button {
-  background: #2f4ad0;
-  margin: 16px 0 50px 0;
-  padding: 8px 16px;
-  color: rgb(4, 0, 0);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  box-shadow: 0 8px 6px -6px rgb(10, 8, 8);
-}
-button:hover {
-  letter-spacing: 2px;
-  box-shadow: none;
-}
-
-.social-media {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-:not(.social-media) {
-  /*  */
-  transition: all 0.5s ease;
-}
-.social-media span {
-  font-size: 16px;
-}
-.social-media span .fas {
-  margin: 0 0 0 10px;
-}
-.social-media a {
-  color: #000;
-  font-size: 20px;
-}
 
 @media (max-width: 425px) {
   .contactForm {
@@ -158,14 +7,12 @@ button:hover {
 }
 .ContactFormBg{
   font-family: "Work Sans", sans-serif;
-  background: rgba(157, 140, 255, 0.2) !important;
+  background: rgba(217, 215, 231, 0.2) !important;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important; 
   backdrop-filter: blur( 5.5px ) !important;
   -webkit-backdrop-filter: blur( 5.5px ) !important;
   border-radius: 10px !important;
   border: 1px solid rgba(97, 96, 96, 0.18) !important;
-  max-width: 32rem;
-  margin: auto;
 }
 .sendBtn{
   margin-top: 10px ;
@@ -183,5 +30,9 @@ button:hover {
 
 }
 .contactBG{
-  background: url('../../public/contactbg.jpg') no-repeat center fixed;
+  background: linear-gradient(to top, rgba(233, 237, 237, 0.52), rgba(67, 52, 60, 0.73)), url('../../public/hero3.jpg') no-repeat center fixed;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
 }

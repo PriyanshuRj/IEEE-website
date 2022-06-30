@@ -1,40 +1,13 @@
 import React from 'react'
-import Styles from '../Styles/Author.module.css'
+import Table from '../components/UI/Table'
+import Styles from '../Styles/Author.module.css';
+
 export default function Author() {
   return (
     <div className={Styles.container}>
     <div className={Styles.heading}>PAPER SUBMISSION</div>
     <div className={Styles.subHeading}>Important Dates</div>
-    <div className={Styles.table}>
-        <table className={Styles.center}>
-            
-              <tr className={Styles.centerTr}>
-                <td className={Styles.centerTd}>Special Session Proposal due:</td>
-                <td className={Styles.centerTd}>31st August 2022</td>
-              </tr>
-            <tr className={Styles.centerTr}>
-                <td className={Styles.centerTd}>Regular Paper Submission due:</td>
-                <td className={Styles.centerTd}>31st October 2022</td>
-              </tr>
-            <tr className={Styles.centerTr}>
-                <td className={Styles.centerTd}>Paper Acceptance Date</td>
-                <td className={Styles.centerTd}>15th February 2023</td>
-              </tr>
-            <tr className={Styles.centerTr}>
-                    <td className={Styles.centerTd}>Camera-Ready Paper Submission due:</td>
-                    <td className={Styles.centerTd}>15th March 2023</td>
-                   </tr>
-                <tr className={Styles.centerTr}>
-                        <td className={Styles.centerTd}>Early Registration due:</td>
-                        <td className={Styles.centerTd}>15th March 2022</td>
-                       </tr>
-                    <tr className={Styles.centerTr}>
-                <td className={Styles.centerTd}>Late Registration Due</td>
-                <td className={Styles.centerTd}>1st April 2023</td> 
-              </tr>
-
-            </table>
-    </div>
+    <Table/>
     <div className={Styles.subHeading}>Paper upload through Microsoft CMT Portal</div>
     <p className={Styles.Link}><a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FESDC2022" target="_blank" rel="noopener noreferrer">Click here to go the paper submission website</a></p>
     <div className={Styles.subHeading}>Where to find paper templates</div>
@@ -50,10 +23,10 @@ export default function Author() {
     <p className={Styles.normalText}>Accepted and presented papers will be copyrighted to IEEE and published in conference proceedings, which will be eligible for inclusion in the IEEE Xplore® Digital Library, once it meets the requirements of an IEEE quality review. It will then be customarily indexed by EI Compendex.</p>
     <div className={Styles.subHeading}>Final PDF paper submission instructions Preparing final PDF</div>
     <p className={Styles.normalText}>Authors must adhere to the IEEE Conference written paper format. The author must submit the final version of the manuscript(s) and sign online the “IEEE Copyright Form” before the final submission deadline. This process is done through the same IES Submit system used for initial paper submission (link in “Where to Submit” section below).</p>
-    <p className={Styles.normalText}>IEEE is very strict about the compliance requirements for PDF files for inclusion in the IEEE Xplore® Digital Library. We strongly recommend using <a href="https://www.ieee.org/conferences/publishing/pdfexpress.html" target="_blank" rel="noopener noreferrer">IEEE PDF eXpress® site</a> to check your final version of the paper.</p>
+    <p className={Styles.normalText}>IEEE is very strict about the compliance requirements for PDF files for inclusion in the IEEE Xplore® Digital Library. We strongly recommend using <a href="https://ieee-pdf-express.org/account/login?ReturnUrl=%2F" target="_blank" rel="noopener noreferrer">IEEE PDF eXpress® site</a> to check your final version of the paper.</p>
     <p className={Styles.normalText}>Later, the IES PCT system will perform more checks on your final version, and authors of wrongly formatted papers will be contacted.</p>
     <div className={Styles.subHeading}>IEEE PDF eXpress® instructions</div>
-    <p className={Styles.normalText}>You can access IEEE PDF eXpress® site by clicking <a href="You can access IEEE PDF eXpress® site by clicking" target="_blank" rel="noopener noreferrer">here</a>. Use TBC as the conference code.</p>
+    <p className={Styles.normalText}>You can access IEEE PDF eXpress® site by clicking <a href="https://ieee-pdf-express.org/account/login?ReturnUrl=%2F" target="_blank" rel="noopener noreferrer">here</a>. Use TBC as the conference code.</p>
     <div className={Styles.subHeading}>Contacting IEEE PDF eXpress® support</div>
     <p className={Styles.normalText}>You can access Publications Support Center by clicking <a href="https://supportcenter.ieee.org/app/answers/list/p/12" target="_blank" rel="noopener noreferrer">here</a>. If you do not find an answer in the Find Answers tab, go to the Ask A Question tab. Your question will be forwarded to IEEE PDF Support and answered within 3 business days.</p>
 </div>

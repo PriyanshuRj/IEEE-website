@@ -18,12 +18,12 @@ export default function ContactUs() {
                         </div>
                         <div className="form-group row mb-3">
                             <div className="col-md-12 mb-0">
-                                <label className="mb-2 ml-2" htmlFor="email">Email</label> <input name="email" id="email" type="text" placeholder="Enter your email"  style={{background:"rgba(97, 96, 96, 0.18)"}} className="form-control input-box rm-border" />
+                                <label className="mb-2 ml-2" htmlFor="email">Email</label> <input name="email" id="email" className={styles.contactFormInput + " form-control input-box rm-border"} type="text" placeholder="Enter your email"  style={{background:"rgba(97, 96, 96, 0.18)"}} />
                             </div>
                         </div>
                         <div className="form-group row">
                             <div className="col-md-12 mb-2 ml-2">
-                                <label className="mb-2" htmlFor="message">Message</label> <textarea id="message" type="text" placeholder="Enter your message" name="message" style={{background:"rgba(97, 96, 96, 0.18)"}} className="form-control input-box rm-border"></textarea>
+                                <label className="mb-2" htmlFor="message">Message</label> <textarea id="message" type="text" className={styles.contactFormInput + " form-control input-box rm-border"} placeholder="Enter your message" name="message" style={{background:"rgba(97, 96, 96, 0.18)"}} ></textarea>
                             </div>
                         </div>
                         <div className="form-group row justify-content-center mb-0">

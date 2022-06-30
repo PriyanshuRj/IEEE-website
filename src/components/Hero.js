@@ -14,13 +14,13 @@ export default function Hero() {
           <Carousel.Caption>
             <div className={Styles.block}>
               <h1>IEEE</h1>
-              <h2>Conference</h2>
-              <h3>2022</h3>
+              <h3>11th IEEE International Conference on ESDC</h3>
+              <h3>2023</h3>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
               </h5>
-              <h6>15-17 December 2022</h6>
+              <h5>Conference Date: 4-6 May 2023</h5>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -34,13 +34,13 @@ export default function Hero() {
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
               <h1>IEEE</h1>
-              <h2>Conference</h2>
-              <h3>2022</h3>
+              <h3>11th IEEE International Conference on ESDC</h3>
+              <h3>2023</h3>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
               </h5>
-              <h6>15-17 December 2022</h6>
+              <h5>Conference Date: 4-6 May 2023</h5>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -54,13 +54,13 @@ export default function Hero() {
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
               <h1>IEEE</h1>
-              <h2>Conference</h2>
-              <h3>2022</h3>
+              <h3>11th IEEE International Conference on ESDC</h3>
+              <h3>2023</h3>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
               </h5>
-              <h6>15-17 December 2022</h6>
+              <h5>Conference Date: 4-6 May 2023</h5>
             </div>
           </Carousel.Caption>
         </Carousel.Item>

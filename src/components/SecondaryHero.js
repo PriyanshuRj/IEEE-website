@@ -18,9 +18,9 @@ export default function Hero({ header }) {
         <div className="row">
           <div className="col-md-6" style={{ zIndex: "100" }}>
             <div className={Styles.block}>
-              <h1>IEEE</h1>
+              <h1>ESDC</h1>
               <h2>Conference</h2>
-              <h3>2022</h3>
+              <h3>2023</h3>
               <h2>{header}</h2>
               {/* <h6>15-17 December 2022</h6> */}
             </div>

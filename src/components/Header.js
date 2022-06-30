@@ -10,13 +10,13 @@ export default function Header() {
   const [ComiteeShowBtn, setComiteeShowBtn] = useState(false);
   const [ProgramShow, setProgramShow] = useState(false);
   const [ProgramShowBtn, setProgramShowBtn] = useState(false);
-  const [AboutShow, setAboutShow] = useState(false);
-  const [AboutShowBtn, setAboutShowBtn] = useState(false);
+  const [SponsersShow, setSponsersShow] = useState(false);
+  const [SponsersShowBtn, setSponsersShowBtn] = useState(false);
   function ComiteeBtn() {
     setComiteeShowBtn((prevState) => !prevState);
   }
-  function AboutBtn() {
-    setAboutShowBtn((prevState) => !prevState);
+  function SponsersBtn() {
+    setSponsersShowBtn((prevState) => !prevState);
   }
   function ProgramBtn() {
     setProgramShowBtn((prevState) => !prevState);
@@ -24,8 +24,8 @@ export default function Header() {
   function setIsShown(val) {
     setComiteeShow(val);
   }
-  function setIsShownAbout(val) {
-    setAboutShow(val);
+  function setIsShownSponsers(val) {
+    setSponsersShow(val);
   }
   function setIsShownProgram(val) {
     setProgramShow(val);
@@ -75,33 +75,6 @@ export default function Header() {
                   <NavDropdown.Item href="/">Other Committee</NavDropdown.Item>
                 </Link>
               </NavDropdown>
-
-              <NavDropdown
-                className={Styles.navItem + "  h5"}
-                title="About"
-                id="basic-nav-dropdown"
-                show={AboutShowBtn || AboutShow}
-                onMouseEnter={() => setIsShownAbout(true)}
-                onMouseLeave={() => setIsShownAbout(false)}
-                onClick={() => AboutBtn()}
-              >
-                <NavDropdown.Item href="/">Action</NavDropdown.Item>
-                <Link to="/organizer">
-                  <NavDropdown.Item href="/organizer">
-                    Organizers
-                  </NavDropdown.Item>
-                </Link>
-                <Link to="/history">
-                  <NavDropdown.Item href="/">History</NavDropdown.Item>
-                </Link>
-                <Link to="/trackchair">
-                  <NavDropdown.Item href="/">Track Chairs</NavDropdown.Item>
-                </Link>
-                <NavDropdown.Divider />
-                <Link to="polices">
-                  <NavDropdown.Item href="/">IEEE Policies</NavDropdown.Item>
-                </Link>
-              </NavDropdown>
               <NavDropdown
                 className={Styles.navItem + "  h5"}
                 title="Programs"
@@ -114,23 +87,48 @@ export default function Header() {
                 <NavDropdown.Item href="/">Program</NavDropdown.Item>
                 <Link to="/program">
                   <NavDropdown.Item href="/">
-                    Confrence Program
+                    Track based Conference
                   </NavDropdown.Item>
                 </Link>
-                <Link to="keynote">
+                <Link to="/keynote">
                   <NavDropdown.Item href="/">Keynotes</NavDropdown.Item>
                 </Link>
-                <Link to="tutorial">
+                <Link to="/tutorial">
                   <NavDropdown.Item href="/">Tutorial</NavDropdown.Item>
                 </Link>
               </NavDropdown>
-
+              <Link to="/author">
+                <Nav.Link className={Styles.navItem + " h5"} href="/">
+                  Authors
+                </Nav.Link>
+              </Link>
+              <NavDropdown
+                className={Styles.navItem + "  h5"}
+                title="Sponsers and Patrons"
+                id="basic-nav-dropdown"
+                show={SponsersShowBtn || SponsersShow}
+                onMouseEnter={() => setIsShownSponsers(true)}
+                onMouseLeave={() => setIsShownSponsers(false)}
+                onClick={() => SponsersBtn()}
+              >
+                <NavDropdown.Item href="/">Home</NavDropdown.Item>
+                <Link to="/sponsersOppurtunities">
+                  <NavDropdown.Item href="/">
+                    Sponsers Oppurtunities
+                  </NavDropdown.Item>
+                </Link>
+                <Link to="/currentSponsers">
+                  <NavDropdown.Item href="/">Current Sponsers</NavDropdown.Item>
+                </Link>
+                
+              </NavDropdown>
+              
               <Nav.Link className={Styles.navItem + " h5"} href="#">
-                Authors
+                Registration
               </Nav.Link>
-              <Nav.Link className={Styles.navItem + " h5"} href="#">
-                Sponsors
-              </Nav.Link>
+              
+              
+              
             </Nav>
           </Navbar.Collapse>
         </Container>

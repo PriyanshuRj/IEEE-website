@@ -5,17 +5,17 @@ const SpeakersList = [
   {
     name: "Prof. SWARUP BHUNIA",
     post: "The University of Florida, USA ",
-    img: "../swarupbhunia.png",
+    img: "/keynoteSpeaker1.jpeg",
   },
   {
     name: "Dr. Priyadarsan Patra",
     post: "Intel Corp. USA",
-    img: "/swarupbhunia.png",
+    img: "/keynoteSpeaker2.jpeg",
   },
   {
     name: "Dr. Chittaranjan Mandal",
     post: "IIT Kharagpur, India",
-    img: "/swarupbhunia.png",
+    img: "/keynoteSpeaker3.jpeg",
   },
 ];
 export default function Speakers() {

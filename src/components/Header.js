@@ -39,7 +39,6 @@ export default function Header() {
     setProgramShowBtn(false);
     setSponsersShow(false);
     setProgramShow(false);
-    
   }
   function setIsShownSponsers(val) {
     setSponsersShow(val);
@@ -85,7 +84,6 @@ export default function Header() {
                 onMouseLeave={() => setIsShown(false)}
                 onClick={() => ComiteeBtn()}
               >
-                <NavDropdown.Item href="/">Action</NavDropdown.Item>
                 <Link to="/organizer">
                   <NavDropdown.Item href="/organizer">
                     Orgainizing Committee
@@ -109,7 +107,6 @@ export default function Header() {
                 onMouseLeave={() => setIsShownProgram(false)}
                 onClick={() => ProgramBtn()}
               >
-                <NavDropdown.Item href="/">Program</NavDropdown.Item>
                 <Link to="/program">
                   <NavDropdown.Item href="/">
                     Track based Conference
@@ -145,15 +142,11 @@ export default function Header() {
                 <Link to="/currentSponsers">
                   <NavDropdown.Item href="/">Current Sponsers</NavDropdown.Item>
                 </Link>
-                
               </NavDropdown>
-              
+
               <Nav.Link className={Styles.navItem + " h5"} href="#">
                 Registration
               </Nav.Link>
-              
-              
-              
             </Nav>
           </Navbar.Collapse>
         </Container>

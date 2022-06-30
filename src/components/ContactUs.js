@@ -4,8 +4,8 @@ import styles from "./ContactUs.module.css";
 // import { FaHeart} from 'react-icons/fa';
 export default function ContactUs() {
   return (
-    <div className={"p-4 " +  styles.contactBG}>
-    <div className="container">
+    <div className={" py-4 " +  styles.contactBG}>
+    <div className=" my-4">
         <div className="row justify justify-content-center  ">
             <div className="col-11 col-md-8 col-lg-6 col-xl-5">
                 <form className="">

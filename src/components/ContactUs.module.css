@@ -164,6 +164,8 @@ button:hover {
   -webkit-backdrop-filter: blur( 5.5px ) !important;
   border-radius: 10px !important;
   border: 1px solid rgba(97, 96, 96, 0.18) !important;
+  max-width: 32rem;
+  margin: auto;
 }
 .sendBtn{
   margin-top: 10px ;

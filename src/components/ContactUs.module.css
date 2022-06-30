@@ -7,12 +7,29 @@
 }
 .ContactFormBg{
   font-family: "Work Sans", sans-serif;
+
+  background: rgba(0, 0, 0, 0.5) !important;
+
   background: rgba(217, 215, 231, 0.2) !important;
+
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important; 
   backdrop-filter: blur( 5.5px ) !important;
   -webkit-backdrop-filter: blur( 5.5px ) !important;
   border-radius: 10px !important;
   border: 1px solid rgba(97, 96, 96, 0.18) !important;
+
+  max-width: 32rem;
+  color: aliceblue;
+  
+}
+.contactFormInput{
+  color: aliceblue !important;
+
+}
+.contactFormInput::placeholder { 
+  color: aliceblue !important;
+  opacity: 1; 
+
 }
 .sendBtn{
   margin-top: 10px ;
@@ -30,9 +47,13 @@
 
 }
 .contactBG{
+  background: url('../../public/hero3.jpg') no-repeat center fixed;
+   background-size: cover;
+
   background: linear-gradient(to top, rgba(233, 237, 237, 0.52), rgba(67, 52, 60, 0.73)), url('../../public/hero3.jpg') no-repeat center fixed;
   width: 100%;
   background-repeat: no-repeat;
   background-size:cover;
   background-position:center;
+
 }

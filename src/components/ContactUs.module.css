@@ -137,7 +137,7 @@ button:hover {
   justify-content: space-around;
 }
 :not(.social-media) {
-  font-family: "Saira Semi Condensed", sans-serif;
+  /*  */
   transition: all 0.5s ease;
 }
 .social-media span {
@@ -155,4 +155,31 @@ button:hover {
   .contactForm {
     width: 100%;
   }
+}
+.ContactFormBg{
+  font-family: "Work Sans", sans-serif;
+  background: rgba(157, 140, 255, 0.2) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important; 
+  backdrop-filter: blur( 5.5px ) !important;
+  -webkit-backdrop-filter: blur( 5.5px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(97, 96, 96, 0.18) !important;
+}
+.sendBtn{
+  margin-top: 10px ;
+  background-color: rgba(96, 117, 226,0.5) !important;
+  width: fit-content;
+  color: aliceblue !important;
+  transition: all 0.2s ease-in-out !important;
+
+}
+.sendBtn:hover{
+  background-color: rgba(19, 32, 97,0.9) !important;
+
+  transform: scale(1.05);
+  color: aliceblue !important;
+
+}
+.contactBG{
+  background: url('../../public/contactbg.jpg') no-repeat center fixed;
 }

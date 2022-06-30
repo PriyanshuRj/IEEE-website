@@ -14,21 +14,46 @@ export default function Header() {
   const [SponsersShowBtn, setSponsersShowBtn] = useState(false);
   function ComiteeBtn() {
     setComiteeShowBtn((prevState) => !prevState);
+    setSponsersShowBtn(false);
+    setProgramShowBtn(false);
+    setSponsersShow(false);
+    setProgramShow(false);
   }
   function SponsersBtn() {
     setSponsersShowBtn((prevState) => !prevState);
+    setProgramShowBtn(false);
+    setProgramShow(false);
+    setComiteeShowBtn(false);
+    setComiteeShow(false);
   }
   function ProgramBtn() {
     setProgramShowBtn((prevState) => !prevState);
+    setComiteeShowBtn(false);
+    setComiteeShow(false);
+    setSponsersShow(false);
+    setSponsersShowBtn(false);
   }
   function setIsShown(val) {
     setComiteeShow(val);
+    setSponsersShowBtn(false);
+    setProgramShowBtn(false);
+    setSponsersShow(false);
+    setProgramShow(false);
+    
   }
   function setIsShownSponsers(val) {
     setSponsersShow(val);
+    setProgramShowBtn(false);
+    setProgramShow(false);
+    setComiteeShowBtn(false);
+    setComiteeShow(false);
   }
   function setIsShownProgram(val) {
     setProgramShow(val);
+    setComiteeShowBtn(false);
+    setComiteeShow(false);
+    setSponsersShow(false);
+    setSponsersShowBtn(false);
   }
   return (
     <>

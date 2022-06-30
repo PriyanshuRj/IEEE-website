@@ -1,5 +1,8 @@
 .cardImg{
     transition: all 0.2s ease-out;
+    object-fit: cover;
+    /* max-width: 17.5rem; */
+
 }
 .cardImg:hover{
     transform: scale(1.05);

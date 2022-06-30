@@ -1,7 +1,6 @@
 import React from "react";
 import Styles from "../Styles/secondhero.module.css";
 export default function Hero({ header }) {
-  console.log(header);
   return (
     <section
       className={

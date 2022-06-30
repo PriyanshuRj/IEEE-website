@@ -125,9 +125,11 @@ export default function Header() {
                 </Link>
               </NavDropdown>
 
-              <Nav.Link className={Styles.navItem + " h5"} href="#">
-                Authors
-              </Nav.Link>
+              <Link to="/Author">
+                <Nav.Link className={Styles.navItem + " h5"} href="/">
+                  Authors
+                </Nav.Link>
+              </Link>
               <Nav.Link className={Styles.navItem + " h5"} href="#">
                 Sponsors
               </Nav.Link>

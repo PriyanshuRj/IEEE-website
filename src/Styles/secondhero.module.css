@@ -8,7 +8,7 @@
     position: relative;
     overflow: hidden;
   }
-  
+
   .bannerTwo .block h1 {
     color: #ff6600;
     font-size: 88px;
@@ -92,5 +92,25 @@
 
       }
   }
-
+  @media (max-width: 540px) {
+    .textOverlay:after {
+      height: 0px;
+      top: 30%;
+      left: 10%;
+      font-size: 200px;
+      /* font-weight: 500; */
+    }
+  }
+  @media (max-width: 425px) {
+    .bannerTwo {
+      padding: 60px 0 60px;
+    }
+    .textOverlay:after {
+      height: 0px;
+      top: 20%;
+      left: 20%;
+      font-size: 140px;
+      font-weight: 500;
+    }
+  }
   

@@ -4,7 +4,7 @@
 .navItem {
   color: rgb(5, 1, 1) !important;
   /* border-radius: 4px; */
-  transition: all 0.2s ease-in-out;
+  transition: all 0s ease-in-out !important;
   padding-left: 10px;
   padding-left: 10px;
   margin: 1rem;
@@ -14,12 +14,12 @@
     margin: 0rem;
   }
 }
-/* .navItem:hover {
-  background-color: #f44949 !important;
+.navItem:hover {
+  /* background-color: #f44949 !important; */
   border-bottom: 2px solid #f44949 !important;
   color: black;
 
-} */
+}
 .navHead {
   color: #f44949 !important;
   font-size: 32px !important;

@@ -1,6 +1,7 @@
 import React from "react";
 import SpeakerCard from "./UI/SpeakerCard";
 import styles from "./Speakers.module.css";
+import { Link } from "react-router-dom";
 const SpeakersList = [
   {
     name: "Prof. SWARUP BHUNIA",
@@ -29,9 +30,13 @@ export default function Speakers() {
           return <SpeakerCard speaker={speaker} key={index} />;
         })}
       </div>
+      <Link to ="/keynote">
+
+
       <a href="#" className={styles.btn}>
         Meet all speakers
       </a>
+      </Link>
     </div>
   );
 }

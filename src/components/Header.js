@@ -71,7 +71,7 @@ export default function Header() {
               navbarScroll
             >
               <Link to="/">
-                <Nav.Link className={Styles.navItem + " h5"} href="/">
+                <Nav.Link className={Styles.navItem + " h5 " + Styles.draw} href="/">
                   Home
                 </Nav.Link>
               </Link>

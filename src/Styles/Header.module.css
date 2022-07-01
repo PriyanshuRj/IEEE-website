@@ -3,7 +3,7 @@
 }
 .navItem {
   color: rgb(5, 1, 1) !important;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   transition: all 0.2s ease-in-out;
   padding-left: 10px;
   padding-left: 10px;
@@ -14,9 +14,12 @@
     margin: 0rem;
   }
 }
-.navItem:hover {
+/* .navItem:hover {
   background-color: #f44949 !important;
-}
+  border-bottom: 2px solid #f44949 !important;
+  color: black;
+
+} */
 .navHead {
   color: #f44949 !important;
   font-size: 32px !important;
@@ -25,3 +28,4 @@
   padding-right: 1rem;
   border-right: 2px solid #f44949;
 }
+

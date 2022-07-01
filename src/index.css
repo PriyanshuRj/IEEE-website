@@ -33,7 +33,7 @@ a {
   line-height: 1.2 !important;
 }
 .nav-link:hover {
-  color: #f7f7f7 !important;
+  /* color: #f7f7f7 !important; */
 }
 .dropdown-menu {
   background-color: #e2e2e2 !important;

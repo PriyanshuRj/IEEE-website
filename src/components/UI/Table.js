@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
+import { MDBTable, MDBTableBody } from 'mdbreact';
 const TablePage=(props)=>{
     const data_people ={
         columns:[

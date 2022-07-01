@@ -1,0 +1,26 @@
+.SponsersBox{
+    padding:100px 250px 100px 250px;
+}
+
+.SponsersText{
+    font-size:20px;
+    font-weight: 500;
+    padding : 0px 10px 0px 10px;
+}
+
+.SponsersImages{
+    padding:10px 250px 10px 250px;
+}
+
+@media only screen and (max-width: 700px){
+    .SponsersBox{
+        padding:10px 0 10px 0;
+    }
+    .SponsersText{
+        font-size:1em;
+    }
+    .SponsersImages{
+        padding : 10px 0 10px 0;
+    }
+}
+

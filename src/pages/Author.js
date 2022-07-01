@@ -1,9 +1,12 @@
 import React from 'react'
+import SecondaryHero from "../components/SecondaryHero";
 import Table from '../components/UI/Table'
 import Styles from '../Styles/Author.module.css';
 
 export default function Author() {
   return (
+    <div>
+        <SecondaryHero header={"Author"} />
     <div className={Styles.container}>
     <div className={Styles.heading}>PAPER SUBMISSION</div>
     <div className={Styles.subHeading}>Important Dates</div>
@@ -29,6 +32,7 @@ export default function Author() {
     <p className={Styles.normalText}>You can access IEEE PDF eXpress® site by clicking <a href="https://ieee-pdf-express.org/account/login?ReturnUrl=%2F" target="_blank" rel="noopener noreferrer">here</a>. Use TBC as the conference code.</p>
     <div className={Styles.subHeading}>Contacting IEEE PDF eXpress® support</div>
     <p className={Styles.normalText}>You can access Publications Support Center by clicking <a href="https://supportcenter.ieee.org/app/answers/list/p/12" target="_blank" rel="noopener noreferrer">here</a>. If you do not find an answer in the Find Answers tab, go to the Ask A Question tab. Your question will be forwarded to IEEE PDF Support and answered within 3 business days.</p>
+</div>
 </div>
   )
 }

@@ -12,7 +12,7 @@ export default function Sponsors() {
                 <div className="col-lg-5 col-md-8">
                     <div className={styles.section_tittle + " mb-50"}>
                         <h2>Conference Sponsors</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia possimus voluptas sequi odio aliquam maxime quo, doloribus iure perspiciatis illum ratione nam, incidunt est. Ab quas nam sit eos expedita!</p>
+                        <p>Thank you to our sponsers for their support!</p>
                     </div>
                 </div>
                 <div className="col-lg-7">

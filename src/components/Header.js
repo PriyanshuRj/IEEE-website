@@ -133,7 +133,7 @@ export default function Header() {
                 onMouseLeave={() => setIsShownSponsers(false)}
                 onClick={() => SponsersBtn()}
               >
-                <NavDropdown.Item href="/">Home</NavDropdown.Item>
+                
                 <Link to="/sponsersOppurtunities">
                   <NavDropdown.Item href="/">
                     Sponsers Oppurtunities

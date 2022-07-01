@@ -1,29 +1,27 @@
 import React, { useState } from "react";
 import { Collapse, ListGroup, Button } from "react-bootstrap";
-import Style from "../Styles/program.module.css";
-export default function Program({data}) {
+export default function Program() {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <div
-      className={"d-flex my-4 h4 text-center p-4 " + Style.tableHeader}
+      <Button
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}
       >
-        {data.professor}
-
-      </div>
+        click
+      </Button>
       <Collapse in={open}>
         <div id="example-collapse-text">
           <ListGroup as="ul">
-            {data.topics.map((item)=>{
-              return <ListGroup.Item as="li" className={Style.listItem}>
-              {item}
+            <ListGroup.Item as="li">
+              Cras justo odio
             </ListGroup.Item>
-            })}
-            
-            
+            <ListGroup.Item as="li">Dapibus ac facilisis in</ListGroup.Item>
+            <ListGroup.Item as="li" >
+              Morbi leo risus
+            </ListGroup.Item>
+            <ListGroup.Item as="li">Porta ac consectetur ac</ListGroup.Item>
           </ListGroup>
         </div>
       </Collapse>

@@ -1,0 +1,30 @@
+.mainDiv{
+    margin: 10rem;
+    
+}
+@media (max-width: 984px) {
+    .mainDiv{
+        margin: 4rem;
+    }
+}
+@media (max-width: 440px) {
+    .mainDiv{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+.tableHeader{
+    background-color: #ff6600;
+    color:white;
+    text-align: end;
+    text-justify:center;
+    cursor: pointer;
+}
+.listItem{
+    background-color: #fff2ea;
+    font-size: 20px;
+}
+.listItem:hover{
+    background-color: #ff8e42;
+    color:#fff2ea
+}

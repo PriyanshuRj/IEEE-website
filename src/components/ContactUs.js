@@ -6,10 +6,10 @@ export default function ContactUs() {
   return (
     <div className={" py-4 " +  styles.contactBG}>
     <div className=" my-4">
-        <div className="row justify justify-content-center  ">
+        <div className="d-flex justify-content-center  ">
             <div className="col-11 col-md-8 col-lg-6 col-xl-5">
                 <form className="">
-                    <div className={"card  p-4 " + styles.ContactFormBg}>
+                    <div className={"card  p-4 mx-auto " + styles.ContactFormBg}>
                         <div className="row mt-2">
                             <div className="col-md-12 ">
                                 <h4 className="">Contact Us</h4>

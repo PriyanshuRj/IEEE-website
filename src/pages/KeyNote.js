@@ -24,7 +24,7 @@ export default function KeyNote() {
     <div>
       <SecondaryHero header={"KeyNotes"} />
       <div className="d-flex justify-content-center m-4 ">
-        <h2 className={Styles.title }> Our Speakers </h2>
+        <h2 className={Styles.title }> Keynote Speakers </h2>
       </div>
       <div className=" mx-4 d-flex justify-content-around flex-wrap" style={{marginBottom : "21px"}}>
         {SpeakersList.map((speaker, index) => {

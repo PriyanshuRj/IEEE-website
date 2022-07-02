@@ -94,7 +94,7 @@ export default function Organizers() {
           style={{ marginBottom: "21px" }}
         >
           {ChiefPatron.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
         
@@ -106,7 +106,7 @@ export default function Organizers() {
           style={{ marginBottom: "21px" }}
         >
           {GeneralCoChair1.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
         <div
@@ -114,7 +114,7 @@ export default function Organizers() {
           style={{ marginBottom: "21px" }}
         >
           {GeneralCoChair2.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
 
@@ -125,7 +125,7 @@ export default function Organizers() {
           style={{ marginBottom: "21px" }}
         >
           {TechnicalChair1.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
         <div
@@ -133,7 +133,7 @@ export default function Organizers() {
           style={{ marginBottom: "21px" }}
         >
           {TechnicalChair2.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
 
@@ -144,7 +144,7 @@ export default function Organizers() {
           style={{ marginBottom: "21px" }}
         >
           {TrackCochair.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
 

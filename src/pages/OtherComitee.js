@@ -48,7 +48,7 @@ export default function OterComitee() {
           style={{ marginBottom: "21px" }}
         >
           {Public.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
         <h1>Local Organizing Committee</h1>
@@ -58,7 +58,7 @@ export default function OterComitee() {
           style={{ marginBottom: "21px" }}
         >
           {Local.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
       </div>

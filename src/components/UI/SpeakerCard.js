@@ -2,9 +2,14 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import Styles from "../../Styles/speaker.module.css";
 export default function SpeakerCard(props) {
-    const {speaker} = props;
+    const {speaker,index} = props;
   return (
-    <div>
+    <div
+    data-aos={index%3==0?"fade-right": index%3==1?"fade-down":"fade-left"}
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out-cubic"
+    >
       <Card style={{ width: "18rem" }} className="mx-4 my-4 text-center">
         <Card.Img variant="top" src={speaker.img} className={ Styles.cardImg + " p-3"} />
         <Card.Body>

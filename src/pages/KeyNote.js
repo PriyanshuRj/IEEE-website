@@ -28,7 +28,7 @@ export default function KeyNote() {
       </div>
       <div className=" mx-4 d-flex justify-content-around flex-wrap" style={{marginBottom : "21px"}}>
         {SpeakersList.map((speaker, index) => {
-          return <Card speaker={speaker} key={index} />;
+          return <Card speaker={speaker} key={index} index={index}/>;
         })}
       </div>
     </div>

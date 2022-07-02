@@ -82,7 +82,7 @@ export default function TechnicalCommitee() {
           style={{ marginBottom: "21px" }}
         >
           {Technical.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
       </div>

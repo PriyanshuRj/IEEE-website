@@ -5,16 +5,29 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function About() {
   return (
-    <section className={styles.home_about_section}>
+    <section className={styles.home_about_section}
+    
+
+    >
       <Container>
         <Row>
           <Col lg="6" className="m-auto">
-            <div className={styles.ha_pic}>
+            <div className={styles.ha_pic}
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out-cubic"
+            >
               <img src={img1} alt="" style={{width:"100%"}}/>
             </div>
           </Col>
           <Col lg="6" className="d-flex">
-            <div className={styles.ha_text}>
+            <div className={styles.ha_text}
+            data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-cubic"
+            >
               <h2>ESDC 2023</h2>
               <p>
               The next generation of smart manufacturing, typically called Industry 4.0 deals with enhancing and upgrading the whole manufacturing processes through a combination of state-of-the-art electronic systems, devices and computing capabilities. These include: wired/wireless connected sensors, actuators, 3D printers, renewable energy-based devices, intelligent machines for computing, etc. The electronics industry has been going through a rapid evolution which in-turn requires integration of inter-disciplinary technologies such as electronics systems, new portable devices and intelligent computing, together called as Electronics Systems, devices and computing (ESDC).

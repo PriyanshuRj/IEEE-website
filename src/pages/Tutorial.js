@@ -45,7 +45,7 @@ export default function Tutorial() {
           style={{ marginBottom: "21px" }}
         >
           {Tut1.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
         <h1>Nano-electronics</h1>
@@ -54,7 +54,7 @@ export default function Tutorial() {
           style={{ marginBottom: "21px" }}
         >
           {Tut2.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
         <h1>Analytics</h1>
@@ -63,7 +63,7 @@ export default function Tutorial() {
           style={{ marginBottom: "21px" }}
         >
           {Tut3.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} />;
+            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>
 

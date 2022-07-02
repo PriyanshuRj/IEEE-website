@@ -144,9 +144,11 @@ export default function Header() {
                 </Link>
               </NavDropdown>
 
-              <Nav.Link className={Styles.navItem + " h5"} href="#">
-                Registration
-              </Nav.Link>
+              <Link to="/registration">
+                <Nav.Link className={Styles.navItem + " h5"} href="/">
+                  Registration
+                </Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

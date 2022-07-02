@@ -11,6 +11,7 @@ import TechnicalCommitee from "./pages/TechnicalCommitee";
 import Author from "./pages/Author";
 import SponsersOppurtunities from "./pages/SponsersOppurtunities";
 import CurrentSponsers from "./pages/CurrentSponsers";
+import Registration from "./pages/Registration";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -34,6 +35,7 @@ function App() {
           <Route exact path="/author" element={<Author />} />
           <Route exact path = "/sponsersOppurtunities" element={<SponsersOppurtunities />} />
           <Route exact path = "/currentSponsers" element={<CurrentSponsers />} />
+          <Route exact path = "/registration" element={<Registration />} />
         </Routes>
         <Footer />
       </Router>

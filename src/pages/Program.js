@@ -70,7 +70,7 @@ export default function Program() {
 
   return (
     <div>
-      <SecondaryHero />
+      <SecondaryHero header="Track Based COnference"/>
       <div className={" " + Style.mainDiv}>
     {ListMap.map((list)=>{
       return <ProgramList key={list.index} data={list} />

@@ -5,6 +5,7 @@ import Style from "../Styles/program.module.css";
 const ListMap = [{
   index:1,
   professor:'Dr. Siva Kotam Raju',
+  track:'Intelligent Sensors & Devices',
   topics:[
     'MEMS',
     'Sensors and Actuators',
@@ -21,6 +22,7 @@ const ListMap = [{
 {
   index:2,
   professor:'Dr. Anish Chand T',
+  track:'Robotics',
   topics:[
     'Wearable robotics',
 'Industrial robotics',
@@ -36,6 +38,7 @@ const ListMap = [{
 {
   index:3,
   professor:'Dr. Raja Vara Prasad',
+  track:'IoT and Networks ',
   topics:['IoT and Networks',
     'Embedded C',
     'IoT Connectivity',
@@ -51,6 +54,7 @@ const ListMap = [{
 },{
   index:4,
   professor:'Dr. Achintya Kumar',
+  track:'Signal processing, ML and Data Analytics for Industry 4.0',
   topics:['Analysis of speech and audio signal',
     'Biomedical signal processing',
     'Signal Processing for Big Data',

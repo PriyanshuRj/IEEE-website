@@ -13,13 +13,13 @@ export default function Hero() {
           />
           <Carousel.Caption>
             <div className={Styles.block}>
-              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
-              <h2>2023</h2>
-              <h5>
+              <h3>11th International Conference on Electronics Systems, Devices and Computing</h3>
+              <h3>2023</h3>
+              <h4>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
-              </h5>
-              <h5>Conference Date: <span>4-6 May 2023</span></h5>
+              </h4>
+              <h3>Conference Date: <span><b>4-6 May 2023</b></span></h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -32,13 +32,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
-              <h2>2023</h2>
-              <h5>
+              <h3>11th International Conference on Electronics Systems, devices and computing</h3>
+              <h3>2023</h3>
+              <h4>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
-              </h5>
-              <h5>Conference Date: <span>4-6 May 2023</span></h5>
+              </h4>
+              <h3>Conference Date: <span><b>4-6 May 2023</b></span></h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -51,13 +51,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
-              <h2>2023</h2>
-              <h5>
+              <h3>11th International Conference on Electronics Systems, devices and computing</h3>
+              <h3>2023</h3>
+              <h4>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
-              </h5>
-              <h5>Conference Date: <span>4-6 May 2023</span></h5>
+              </h4>
+              <h3>Conference Date: <span><b>4-6 May 2023</b></span></h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -70,13 +70,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
-              <h2>2023</h2>
-              <h5>
+              <h3>11th International Conference on Electronics Systems, devices and computing</h3>
+              <h3>2023</h3>
+              <h4>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
-              </h5>
-              <h5>Conference Date: <span>4-6 May 2023</span></h5>
+              </h4>
+              <h3>Conference Date: <span><b>4-6 May 2023</b></span></h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -89,13 +89,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
-              <h2>2023</h2>
-              <h5>
+              <h3>11th International Conference on Electronics Systems, devices and computing</h3>
+              <h3>2023</h3>
+              <h4>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
-              </h5>
-              <h5>Conference Date: <span>4-6 May 2023</span></h5>
+              </h4>
+              <h3>Conference Date: <span><b>4-6 May 2023</b></span></h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -108,13 +108,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
-              <h2>2023</h2>
-              <h5>
+              <h3>11th International Conference on Electronics Systems, devices and computing</h3>
+              <h3>2023</h3>
+              <h4>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
-              </h5>
-              <h5>Conference Date: <span>4-6 May 2023</span></h5>
+              </h4>
+              <h3>Conference Date: <span><b>4-6 May 2023</b></span></h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>

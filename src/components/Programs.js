@@ -7,10 +7,10 @@ export default function Program({data}) {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-left">
 
-
-      <h1 className={Style.title}>{data.track}</h1>
+      <h1 className={Style.title}>{data.TrackNo}</h1>
+      <h1 className={Style.title}>{data.professor}</h1>
       </div>
 
       <div
@@ -20,7 +20,7 @@ export default function Program({data}) {
         aria-expanded={open}
       >
        <p>
-          {data.professor}
+          {data.track}
          </p>
 
       {open?<FontAwesomeIcon icon={faChevronCircleUp} width={40} height={40} />:<FontAwesomeIcon icon={faChevronCircleDown} width={40} height={40} />}

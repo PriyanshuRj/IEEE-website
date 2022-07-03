@@ -4,7 +4,8 @@ import SecondaryHero from "../components/SecondaryHero";
 import Style from "../Styles/program.module.css";
 const ListMap = [{
   index:1,
-  professor:'Dr. Siva Kotam Raju',
+  TrackNo :'Track 1',
+  professor:'Chair - Dr. Siva Kotam Raju',
   track:'Intelligent Sensors & Devices',
   topics:[
     'MEMS',
@@ -21,7 +22,8 @@ const ListMap = [{
 },
 {
   index:2,
-  professor:'Dr. Anish Chand T',
+  TrackNo :'Track 2',
+  professor:'Chair - Dr. Anish Chand T',
   track:'Robotics',
   topics:[
     'Wearable robotics',
@@ -37,7 +39,8 @@ const ListMap = [{
 },
 {
   index:3,
-  professor:'Dr. Raja Vara Prasad',
+  TrackNo :'Track 3',
+  professor:'Chair - Dr. Raja Vara Prasad',
   track:'IoT and Networks ',
   topics:['IoT and Networks',
     'Embedded C',
@@ -53,7 +56,8 @@ const ListMap = [{
   ]
 },{
   index:4,
-  professor:'Dr. Achintya Kumar',
+  TrackNo :'Track 4',
+  professor:'Chair - Dr. Achintya Kumar',
   track:'Signal processing, ML and Data Analytics for Industry 4.0',
   topics:['Analysis of speech and audio signal',
     'Biomedical signal processing',

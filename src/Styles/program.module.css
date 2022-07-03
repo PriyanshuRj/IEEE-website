@@ -39,7 +39,7 @@
 .title {
     width: fit-content;
     position: relative;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 400;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -71,14 +71,14 @@
 
 @media (max-width: 425px) {
     .title{
-      font-size: 1rem;
+      font-size: 0.5rem;
 
     }
   }
 
   @media (max-width: 520px) {
     .title{
-      font-size: 2.5rem;
+      font-size: 1.3rem;
       
     }
   } 

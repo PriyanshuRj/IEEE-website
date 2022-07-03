@@ -7,11 +7,6 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.block h1 {
-    color: #f44949 ;
-    font-size: 88px;
-    font-weight:700;
-  }
   
   .block h2 {
     font-weight: 400;
@@ -29,6 +24,11 @@
     font-weight: 400;
     margin-bottom: 60px;
   }
+
+  .block span {
+    color: #f44949;
+  }
+
   @media (max-width: 767px) {
     .bgBannerTwo {
         background: white;

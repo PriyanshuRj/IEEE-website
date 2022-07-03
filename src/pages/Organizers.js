@@ -20,9 +20,6 @@ const GeneralCoChair1 = [
     post: "IIIT Sricity",
     img: "OrganizersCommittee/generalCo-chair2.png",
   },
-  
-];
-const GeneralCoChair2 = [
   {
     name: "Dr. Priyanka Dwivedi",
     post: "IIIT Sricity",
@@ -106,14 +103,6 @@ export default function Organizers() {
           style={{ marginBottom: "21px" }}
         >
           {GeneralCoChair1.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} index={index}/>;
-          })}
-        </div>
-        <div
-          className=" mx-4 d-flex justify-content-around flex-wrap"
-          style={{ marginBottom: "21px" }}
-        >
-          {GeneralCoChair2.map((speaker, index) => {
             return <SpeakerCard speaker={speaker} key={index} index={index}/>;
           })}
         </div>

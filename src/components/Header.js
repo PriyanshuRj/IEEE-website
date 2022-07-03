@@ -126,7 +126,7 @@ export default function Header() {
               </Link>
               <NavDropdown
                 className={Styles.navItem + "  h5"}
-                title="Sponsers and Patrons"
+                title="Sponsers"
                 id="basic-nav-dropdown"
                 show={SponsersShowBtn || SponsersShow}
                 onMouseEnter={() => setIsShownSponsers(true)}

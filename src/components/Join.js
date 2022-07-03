@@ -3,7 +3,7 @@ import styles from "../components/Join.module.css";
 export default function Join() {
     return (
 <div className={styles.cardBox}>
-  <h1 className={styles.heading}>Why You Should Join?</h1>
+  <h1 className={styles.heading}>Why You Should Participate?</h1>
   <ul className={styles.ulCards}>
     <li className={styles.liClass}>
       <div className={styles.icon}><i className="fa-solid fa-microphone"></i></div>

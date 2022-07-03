@@ -17,7 +17,7 @@ export default function About() {
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out-cubic"
             >
-              <img src="BannerPhotos/projects_on_Industry_4.0.jpg" alt="" style={{width:"100%"}}/>
+              <img src="BannerPhotos/industry4.0.jpeg" alt="" style={{width:"100%"}}/>
             </div>
           </Col>
           <Col lg="6" className="d-flex">

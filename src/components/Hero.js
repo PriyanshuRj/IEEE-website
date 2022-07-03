@@ -13,14 +13,13 @@ export default function Hero() {
           />
           <Carousel.Caption>
             <div className={Styles.block}>
-              <h1>IEEE</h1>
-              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
               <h2>2023</h2>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
               </h5>
-              <h5>Conference Date: 4-6 May 2023</h5>
+              <h5>Conference Date: <span>4-6 May 2023</span></h5>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -33,14 +32,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h1>IEEE</h1>
-              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
               <h2>2023</h2>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
               </h5>
-              <h5>Conference Date: 4-6 May 2023</h5>
+              <h5>Conference Date: <span>4-6 May 2023</span></h5>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -53,14 +51,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h1>IEEE</h1>
-              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
               <h2>2023</h2>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
               </h5>
-              <h5>Conference Date: 4-6 May 2023</h5>
+              <h5>Conference Date: <span>4-6 May 2023</span></h5>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -73,14 +70,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h1>IEEE</h1>
-              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
               <h2>2023</h2>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
               </h5>
-              <h5>Conference Date: 4-6 May 2023</h5>
+              <h5>Conference Date: <span>4-6 May 2023</span></h5>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -93,14 +89,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h1>IEEE</h1>
-              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
               <h2>2023</h2>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
               </h5>
-              <h5>Conference Date: 4-6 May 2023</h5>
+              <h5>Conference Date: <span>4-6 May 2023</span></h5>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -113,14 +108,13 @@ export default function Hero() {
 
           <Carousel.Caption className={Styles.heroCaption}>
             <div className={Styles.block}>
-              <h1>IEEE</h1>
-              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>11th International Conference on Electronics Systems, devices and computing</h2>
               <h2>2023</h2>
               <h5>
                 Hosted by Indian Institute of Information Technology (IIIT) Sri
                 City, India
               </h5>
-              <h5>Conference Date: 4-6 May 2023</h5>
+              <h5>Conference Date: <span>4-6 May 2023</span></h5>
             </div>
           </Carousel.Caption>
         </Carousel.Item>

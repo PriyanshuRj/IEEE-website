@@ -1,5 +1,6 @@
 .work_company {
-  	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+  background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%),
+    linear-gradient(to right, #ee8425 0%, #f9488b 100%);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .work_company .single_logo img {
@@ -103,4 +104,23 @@
 }
 .section_tittle p {
   color: #fff;
+}
+
+.section_tittle .btn {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  background-color: transparent;
+}
+
+.section_tittle .btn:before {
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 2px;
+  width: 100%;
+  background: #f44949;
+  content: "";
 }

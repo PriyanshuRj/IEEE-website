@@ -64,6 +64,66 @@ export default function Hero() {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className={"d-block w-100 " + Styles.heroImage}
+            src="BannerPhotos/IIIT_Sricity.jpg"
+            alt="Fourth slide"
+          />
+
+          <Carousel.Caption className={Styles.heroCaption}>
+            <div className={Styles.block}>
+              <h1>IEEE</h1>
+              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>2023</h2>
+              <h5>
+                Hosted by Indian Institute of Information Technology (IIIT) Sri
+                City, India
+              </h5>
+              <h5>Conference Date: 4-6 May 2023</h5>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className={"d-block w-100 " + Styles.heroImage}
+            src="BannerPhotos/IIIT_Sricity_2.jpg"
+            alt="Fifth slide"
+          />
+
+          <Carousel.Caption className={Styles.heroCaption}>
+            <div className={Styles.block}>
+              <h1>IEEE</h1>
+              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>2023</h2>
+              <h5>
+                Hosted by Indian Institute of Information Technology (IIIT) Sri
+                City, India
+              </h5>
+              <h5>Conference Date: 4-6 May 2023</h5>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className={"d-block w-100 " + Styles.heroImage}
+            src="BannerPhotos/Sricity_2.jpg"
+            alt="Sixth slide"
+          />
+
+          <Carousel.Caption className={Styles.heroCaption}>
+            <div className={Styles.block}>
+              <h1>IEEE</h1>
+              <h2>11th IEEE International Conference on ESDC</h2>
+              <h2>2023</h2>
+              <h5>
+                Hosted by Indian Institute of Information Technology (IIIT) Sri
+                City, India
+              </h5>
+              <h5>Conference Date: 4-6 May 2023</h5>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
     </section>
   );

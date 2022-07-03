@@ -12,6 +12,7 @@ import Author from "./pages/Author";
 import SponsersOppurtunities from "./pages/SponsersOppurtunities";
 import CurrentSponsers from "./pages/CurrentSponsers";
 import Registration from "./pages/Registration";
+import UpperHeader from "./components/UpperHeader";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -27,6 +28,7 @@ AOS.init({
 function App() {
   return (
     <Fragment>
+      <UpperHeader />
       <Router>
         <Header />
         <Routes>

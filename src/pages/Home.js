@@ -3,6 +3,7 @@ import About from "../components/About";
 import Hero from "../components/Hero";
 import Sponsors from "../components/Sponsors";
 import Join from "../components/Join";
+import Calander from "../components/UI/Calander"
 import ContactUs from "../components/ContactUs";
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <About />
         <Join />
+        <Calander />
         <Sponsors />
         <ContactUs />
     </div>

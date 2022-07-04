@@ -81,9 +81,14 @@ export default function Header() {
                 title="Committee"
                 id="basic-nav-dropdown"
                 onMouseEnter={() => setIsShown(true)}
-                onMouseLeave={() => setIsShown(false)}
+                
                 onClick={() => ComiteeBtn()}
               >
+                <div
+                onMouseLeave={() => setIsShown(false)}
+                >
+
+
                 <Link to="/organizer">
                   <NavDropdown.Item href="/organizer">
                     Orgainizing Committee
@@ -97,6 +102,7 @@ export default function Header() {
                 <Link to="/other">
                   <NavDropdown.Item href="/">Other Committee</NavDropdown.Item>
                 </Link>
+                </div>
               </NavDropdown>
               <NavDropdown
                 className={Styles.navItem + "  h5"}
@@ -104,9 +110,14 @@ export default function Header() {
                 id="basic-nav-dropdown"
                 show={ProgramShowBtn || ProgramShow}
                 onMouseEnter={() => setIsShownProgram(true)}
-                onMouseLeave={() => setIsShownProgram(false)}
+                
                 onClick={() => ProgramBtn()}
               >
+                <div
+                onMouseLeave={() => setIsShownProgram(false)}
+                >
+
+
                 <Link to="/program">
                   <NavDropdown.Item href="/">
                     Track based Conference
@@ -118,6 +129,7 @@ export default function Header() {
                 <Link to="/tutorial">
                   <NavDropdown.Item href="/">Tutorial</NavDropdown.Item>
                 </Link>
+                </div>
               </NavDropdown>
               <Link to="/author">
                 <Nav.Link className={Styles.navItem + " h5"} href="/">
@@ -130,10 +142,12 @@ export default function Header() {
                 id="basic-nav-dropdown"
                 show={SponsersShowBtn || SponsersShow}
                 onMouseEnter={() => setIsShownSponsers(true)}
-                onMouseLeave={() => setIsShownSponsers(false)}
+                
                 onClick={() => SponsersBtn()}
               >
-                
+                <div
+                onMouseLeave={() => setIsShownSponsers(false)}                >
+
                 <Link to="/sponsersOppurtunities">
                   <NavDropdown.Item href="/">
                     Sponsers Oppurtunities
@@ -142,6 +156,7 @@ export default function Header() {
                 <Link to="/currentSponsers">
                   <NavDropdown.Item href="/">Current Sponsers</NavDropdown.Item>
                 </Link>
+                </div>
               </NavDropdown>
 
               <Link to="/registration">

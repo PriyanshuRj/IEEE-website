@@ -6,6 +6,7 @@ import sricity from "../Images/sricity-logo.png";
 
 export default function Sponsors() {
   return (
+    <div style= {{paddingTop:'3.625rem'}}>
     <section className={styles.work_company}>
       <Container>
         <Row style={{ alignItems: "center" }}>
@@ -37,5 +38,6 @@ export default function Sponsors() {
         </Row>
       </Container>
     </section>
+    </div>
   );
 }

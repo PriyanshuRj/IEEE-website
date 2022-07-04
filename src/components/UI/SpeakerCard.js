@@ -10,6 +10,7 @@ export default function SpeakerCard(props) {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out-cubic"
     >
+       <h1>{speaker.designation}</h1>
       <Card style={{ width: "18rem" }} className="mx-4 my-4 text-center">
         <Card.Img variant="top" src={speaker.img} className={ Styles.cardImg + " p-3"} />
         <Card.Body>

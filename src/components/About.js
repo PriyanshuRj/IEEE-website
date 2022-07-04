@@ -28,7 +28,7 @@ export default function About() {
             data-aos-easing="ease-in-out-cubic"
             >
               <h2>ESDC 2023</h2>
-              <p>
+              <p style={{texAtlign: "justify", textJustify: "inter-word"}}>
               The next generation of smart manufacturing, typically called Industry 4.0 deals with enhancing and upgrading the whole manufacturing processes through a combination of state-of-the-art electronic systems, devices and computing capabilities. These include: wired/wireless connected sensors, actuators, 3D printers, renewable energy-based devices, intelligent machines for computing, etc. The electronics industry has been going through a rapid evolution which in-turn requires integration of inter-disciplinary technologies such as electronics systems, new portable devices and intelligent computing, together called as Electronics Systems, devices and computing (ESDC).
               </p>
               

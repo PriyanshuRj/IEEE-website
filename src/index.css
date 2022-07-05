@@ -24,7 +24,7 @@ a {
   text-decoration: none !important;
 }
 .nav-link {
-  color: rgb(5, 1, 1) !important;
+  color: #fff !important;
 
   text-decoration: none !important;
   padding-left: 1rem !important;
@@ -32,9 +32,6 @@ a {
   font-weight: 500 !important;
   line-height: 1.2 !important;
 }
-/* .nav-link:hover {
-  color: #f7f7f7 !important;
-} */
 .dropdown-menu {
   background-color: #e2e2e2 !important;
   color: rgb(0, 0, 0) !important;

@@ -33,14 +33,14 @@
 }
 .sendBtn{
   margin-top: 10px ;
-  background-color: rgba(96, 117, 226,0.5) !important;
+  background-color: #EF6C4C !important;
   width: fit-content;
   color: aliceblue !important;
   transition: all 0.2s ease-in-out !important;
 
 }
 .sendBtn:hover{
-  background-color: rgba(19, 32, 97,0.9) !important;
+  background-color: #1D619C !important;
 
   transform: scale(1.05);
   color: aliceblue !important;
@@ -56,4 +56,10 @@
   background-size:cover;
   background-position:center;
 
+}
+.heading {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
 }

@@ -12,7 +12,7 @@ export default function ContactUs() {
                     <div className={"card  p-4 mx-auto " + styles.ContactFormBg}>
                         <div className="row mt-2">
                             <div className="col-md-12 ">
-                                <h4 className="">Contact Us</h4>
+                                <h4 className={styles.heading}>Contact Us</h4>
                                 <p>Send Your mesage to Us !</p>
                             </div>
                         </div>
@@ -27,7 +27,7 @@ export default function ContactUs() {
                             </div>
                         </div>
                         <div className="form-group row justify-content-center mb-0">
-                            <div className=" col-md-12 px-3"> <input type="submit" value="Submit" className={styles.sendBtn + " btn btn-block btn-purple rm-border"} /> </div>
+                            <div className=" col-md-12 px-3"> <input type="submit" value="Submit" className={styles.sendBtn + " btn btn-block rm-border"} /> </div>
                         </div>
                     </div>
                 </form>

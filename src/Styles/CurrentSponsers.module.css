@@ -3,9 +3,9 @@
 }
 
 .SponsersText{
-    font-size:20px;
+    font-size:40px;
     font-weight: 500;
-    padding : 0px 10px 0px 10px;
+    padding : 82px 0px 0px 0px;
 }
 
 .SponsersImages{
@@ -18,6 +18,7 @@
     }
     .SponsersText{
         font-size:1em;
+        padding-top:1rem;
     }
     .SponsersImages{
         padding : 10px 0 10px 0;

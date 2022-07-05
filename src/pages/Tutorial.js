@@ -5,11 +5,13 @@ import Styles from "../Styles/organizer.module.css";
 
 const Tut1 = [
   {
-    name: "Dr. Hrishikesh Venkataraman",
+    designation:"Chair",
+    name: "Dr.Hrishikesh Venkataraman",
     post: "IIIT Sricity",
     img: "OrganizersCommittee/generalCo-chair2.png",
   },
   {
+    designation:"Co-Chair",
     name: "Mr. Ranjeet Deshmukh",
     post: "Road Bounce",
     img: "RanjeetDeshmukh.jpg",
@@ -17,23 +19,29 @@ const Tut1 = [
 ];
 const Tut2 = [
   {
+    designation:"Chair",
     name: "Dr. Ramesh Kumar V",
     post: "IIIT Sricity",
     img: "OtherCommittee/Public3.jpg",
   },
   {
+    designation:"Co-Chair",
     name: "TBD",
+    post:"TBD",
     img: "dummyImage.jpeg",
   },
 ];
 const Tut3 = [
   {
+    designation:"Chair",
     name: "Dr. Sreeja SR",
     post: "IIIT Sricity",
     img: "Sreeja.png",
   },
   {
+    designation:"Co-Chair",
     name: "TBD",
+    post:"TBD",
     img: "dummyImage.jpeg",
   },
 ];
@@ -81,11 +89,12 @@ export default function Tutorial() {
           className=" mx-4 d-flex justify-content-around flex-wrap"
           style={{ marginBottom: "21px" }}
         >
+          
           {Tut2.map((speaker, index) => {
             return <SpeakerCard speaker={speaker} key={index} index={index} />;
           })}
         </div>
-        <h1>Analytics</h1>
+        <h1>Data Analytics</h1>
         <h5
           className={"mx-5"}
           style={{ textAlign: "justify", textJustify: "inter-word" }}

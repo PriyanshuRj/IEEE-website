@@ -121,8 +121,8 @@ ul.ulCards>li.liClass::after{
     box-sizing: border-box;
 }   
 .cardBox {
-    min-height: 100vh;    
-    padding: 2rem;
+   
+    padding: 2rem 2rem 3.625rem 2rem;
     background-color: #ffffff;
     font-family: sans-serif;
 }

@@ -1,8 +1,8 @@
 .navdiv {
-  background-color: #f3f3f3 !important;
+  background-image: linear-gradient(to right,#1D619C 60%,#EF6C4C  100%), linear-gradient(to right, #1D619C 60%,#EF6C4C  100%);
 }
 .navItem {
-  color: rgb(5, 1, 1) !important;
+  color: #fff !important;
   /* border-radius: 4px; */
   transition: all 0s ease-in-out !important;
   padding-left: 10px;
@@ -16,16 +16,16 @@
 }
 .navItem:hover {
   /* background-color: #f44949 !important; */
-  border-bottom: 2px solid #f44949 !important;
-  color: black;
+  border-bottom: 2px solid #EF6C4C !important;
+  color: #EF6C4C !important;
 
 }
 .navHead {
-  color: #f44949 !important;
+  color: #EF6C4C !important;
   font-size: 32px !important;
   font-weight: 700 !important;
   font-family: "Catamaran", sans-serif;
   padding-right: 1rem;
-  border-right: 2px solid #f44949;
+  border-right: 2px solid #EF6C4C;
 }
 

@@ -98,7 +98,7 @@ export default function Program() {
   return (
     <div>
       <SecondaryHero header="Track Based Conference"/>
-      <h1 className={Style.mainTitle} style={{textAlign: 'center',padding: '50px 0 10px 0',fontSize: '40px',fontWeight: 'bold'}}>4 Tracks pertaining to Industry 4.0 theme</h1>
+      <h1 className={Style.mainTitle} style={{textAlign: 'center',padding: '82px 0 10px 0',fontSize: '40px',fontWeight: 'bold'}}>4 Tracks pertaining to Industry 4.0 theme</h1>
       <div className={Style.Text}>
       The 1st track is on Devices where the focus would be on sensors, actuators, system on chip, nano-electronics, etc. Significantly, this track would also cover wearable electronics and other devices pertaining to industry 4.0.The 2nd track is on Robotics to showcase the latest developments in cross-disciplinary areas of robotics including (but not limited to) human robot interaction, AI for robotics, robotics based industrial systems design and cobots. The application areas can include industrial automation, healthcare, rehabilitation, home services and search and rescue. The 3rd track is on IoT and networks, the backbone of industry 4.0. The topics of interest include: Embedded systems, Digital Twin, Industrial IoT.Finally, the 4th track is on signal processing, machine learning. The main goal of this track is to share the innovation ideas, methodology, development, and applications of signal processing, data analytics, Big data, and machine learning among the researchers and industry experts around the world.
       </div>
@@ -194,6 +194,7 @@ export default function Program() {
     })}
 
       </div>
+      <div style = {{paddingBottom: '3.8125rem'}}></div>
     </div>
   );
 }

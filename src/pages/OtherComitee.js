@@ -62,6 +62,7 @@ export default function OterComitee() {
           })}
         </div>
       </div>
+      <div style = {{paddingBottom: '3.8125rem'}}></div>
     </div>
   );
 }

@@ -170,7 +170,7 @@ export default function Author() {
           <div className={Styles.subHeading}>
             Contacting IEEE PDF eXpress® support
           </div>
-          <p className={Styles.normalText} style={{ textAlign: "justify", textJustify: "inter-word" }}>
+          <p className={Styles.normalText} style={{ textAlign: "justify", textJustify: "inter-word" ,paddingBottom:'21px'}}>
             You can access Publications Support Center by clicking{" "}
             <a
               href="https://supportcenter.ieee.org/app/answers/list/p/12"
@@ -185,6 +185,7 @@ export default function Author() {
           </p>
         </div>
       </div>
+      <div style = {{paddingBottom: '3.8125rem'}}></div>
     </div>
   );
 }

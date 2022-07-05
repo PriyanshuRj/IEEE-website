@@ -23,7 +23,7 @@ export default function KeyNote() {
   return (
     <div>
       <SecondaryHero header={"KeyNotes"} />
-      <div className="d-flex justify-content-center m-4 ">
+      <div className="d-flex justify-content-center m-4 "style = {{paddingTop: '3.8125rem'}}>
         <h2 className={Styles.title }> Keynote Speakers </h2>
       </div>
       <div className=" mx-4 d-flex justify-content-around flex-wrap" style={{marginBottom : "21px"}}>
@@ -31,6 +31,7 @@ export default function KeyNote() {
           return <Card speaker={speaker} key={index} index={index}/>;
         })}
       </div>
+      <div style = {{paddingBottom: '3.8125rem'}}></div>
     </div>
   )
 }

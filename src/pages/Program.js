@@ -3,22 +3,7 @@ import ProgramList from "../components/Programs";
 import SecondaryHero from "../components/SecondaryHero";
 import Style from "../Styles/program.module.css";
 import SpeakerCard from "../components/UI/SpeakerCard";
-const Text1 = [{
-  index : 1,
-  TrackNo :'Track 1 - Intelligent Sensors & Devices',
-  track:'Intelligent Sensors & Devices',
-  topics:[
-    'MEMS',
-    'Sensors and Actuators',
-    'Nanoelectronics',
-    'System on Chip (SoC)',
-    'Optical Devices' ,
-   ' Wearable Electronics',
-    'VLSI',
-    'RTL',
-    "And other related topics"
-  ]
-}]
+
 
 const Track1 = [{
   designation:"Chair",

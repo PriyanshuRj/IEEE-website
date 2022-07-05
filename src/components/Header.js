@@ -86,6 +86,7 @@ export default function Header() {
               >
                 <div
                 onMouseLeave={() => setIsShown(false)}
+                onClick={() => ComiteeBtn()}
                 >
 
 
@@ -115,6 +116,7 @@ export default function Header() {
               >
                 <div
                 onMouseLeave={() => setIsShownProgram(false)}
+                onClick={() => ProgramBtn()}
                 >
 
 
@@ -146,8 +148,9 @@ export default function Header() {
                 onClick={() => SponsersBtn()}
               >
                 <div
-                onMouseLeave={() => setIsShownSponsers(false)}                >
-
+                onMouseLeave={() => setIsShownSponsers(false)}
+                onClick={() => SponsersBtn()} >
+                  
                 <Link to="/sponsersOppurtunities">
                   <NavDropdown.Item href="/">
                     Sponsers Oppurtunities

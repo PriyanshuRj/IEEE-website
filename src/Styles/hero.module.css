@@ -11,16 +11,16 @@
   .block h2 {
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 74px;
+    font-size: 64px;
     margin-bottom: 10px;
   }
   
   .block h3 {
-    font-size: 74px;
+    font-size: 54px;
   }
   
   .block h6 {
-    margin-top: 48px;
+    margin-top: 32px;
     font-weight: 400;
     margin-bottom: 60px;
   }
@@ -38,22 +38,44 @@
         transform: skewX(0deg);
     }
     .block h1 {
-        font-size: 60px;
+        font-size: 50px;
       }
       
       .block h2 {
         font-weight: 400;
-        font-size: 50px;
+        font-size: 40px;
         
       }
       
       .block h3 {
-        font-size: 38px;
+        font-size: 30px;
       }
       
       .block h6 {
-        margin-top: 20px;
+        margin-top: 16px;
         font-weight: 300;
+        
+      }
+  }
+
+  @media (max-width: 400px) {
+    .block h1 {
+        font-size: 30px;
+      }
+      
+      .block h2 {
+        font-weight: 200;
+        font-size: 20px;
+        
+      }
+      
+      .block h3 {
+        font-size: 16px;
+      }
+      
+      .block h6 {
+        margin-top: 10px;
+        font-weight: 200;
         
       }
   }

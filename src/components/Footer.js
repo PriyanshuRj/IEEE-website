@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function Footer() {
   return (
+    <div>
     <section className={styles.footer_section}>
       <Container>
         <Row>
@@ -51,5 +52,6 @@ export default function Footer() {
         </Row>
       </Container>
     </section>
+    </div>
   );
 }

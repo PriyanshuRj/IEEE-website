@@ -17,10 +17,6 @@ a {
 h1{
   color : #1D619C;
 }
-p{
-  text-align: justify;
-  text-justify: inter-word;
-}
 .nav-item {
   margin: 0px !important;
   padding-left: 0px !important;

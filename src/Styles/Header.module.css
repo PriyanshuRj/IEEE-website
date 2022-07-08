@@ -1,5 +1,5 @@
 .navdiv {
-  background-image: linear-gradient(to right,#1D619C 60%,#EF6C4C  100%), linear-gradient(to right, #1D619C 60%,#EF6C4C  100%);
+  background-image: linear-gradient(to right,#1D619C 60%,#f44949  100%), linear-gradient(to right, #1D619C 60%,#EF6C4C  100%);
 }
 .navItem {
   color: #fff !important;
@@ -16,16 +16,16 @@
 }
 .navItem:hover {
   /* background-color: #f44949 !important; */
-  border-bottom: 2px solid #EF6C4C !important;
-  color: #EF6C4C !important;
+  border-bottom: 2px solid #f44949 !important;
+  color: #f44949 !important;
 
 }
 .navHead {
-  color: #EF6C4C !important;
+  color: #f44949 !important;
   font-size: 32px !important;
   font-weight: 700 !important;
   font-family: "Catamaran", sans-serif;
   padding-right: 1rem;
-  border-right: 2px solid #EF6C4C;
+  border-right: 2px solid #f44949;
 }
 

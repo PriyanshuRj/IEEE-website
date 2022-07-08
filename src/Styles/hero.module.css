@@ -7,9 +7,9 @@
   background-color: rgb(0, 0, 0);
 }
 .block{
-    background-color: rgba(27, 27, 27,0.4);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /* background-color: rgba(27, 27, 27,0.4); */
+    padding-top: 40%;
+    padding-bottom: 18%;
 }
 
   
@@ -51,6 +51,9 @@
         -webkit-transform: skewX(0deg);
         transform: skewX(0deg);
     }
+    .block{
+      padding-bottom:40%;
+    }
     .block h1 {
         font-size: 50px;
       }
@@ -73,20 +76,25 @@
   }
 
   @media (max-width: 400px) {
+    .block{
+      padding-bottom: 72%;
+    }
     .block h1 {
         font-size: 30px;
       }
       
       .block h2 {
         font-weight: 200;
-        font-size: 20px;
+        font-size: 24px;
         
       }
       
       .block h3 {
+        font-size: 20px;
+      }
+      .block h4{
         font-size: 16px;
       }
-      
       .block h6 {
         margin-top: 10px;
         font-weight: 200;

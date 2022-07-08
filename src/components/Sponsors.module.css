@@ -1,6 +1,6 @@
 .work_company {
-  background-image: linear-gradient(to right,#1D619C 60%,#EF6C4C  100%),
-    linear-gradient(to right,#1D619C 60%,#EF6C4C  100%);
+  background-image: linear-gradient(to right,#1D619C 60%,#f44949  100%),
+    linear-gradient(to right,#1D619C 60%,#f44949  100%);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .work_company .single_logo img {

@@ -1,5 +1,5 @@
 .bgBanner {
-    background: linear-gradient(to top, #000000ba, #050506cc), url(../../public/IIIT_Sricity/IIITSricity_photo3.png) no-repeat;
+    background: linear-gradient(to bottom, #000000d9, #000000f0), url(../../public/IIIT_Sricity/IIITSricity_photo3.png) no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 20rem;

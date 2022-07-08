@@ -1,22 +1,36 @@
 .heroImage{
     height: 90vh;
     object-fit: cover;
+    opacity: 0.4;
+}
+.carouseitem{
+  background-color: rgb(0, 0, 0);
 }
 .block{
     background-color: rgba(27, 27, 27,0.4);
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
   
   .block h2 {
-    font-weight: 400;
+    font-weight: 500;
+    color: orange;
     text-transform: uppercase;
     font-size: 64px;
     margin-bottom: 10px;
   }
   
   .block h3 {
-    font-size: 54px;
+    font-size: 44px;
+    color: orange;
+    font-weight: 500;
+  }
+
+  .block h4 {
+    font-size: 24px;
+    color: orange;
+    font-weight: 400;
   }
   
   .block h6 {
@@ -26,7 +40,7 @@
   }
 
   .block span {
-    color: #f44949;
+    color: #1D619C;
   }
 
   @media (max-width: 767px) {

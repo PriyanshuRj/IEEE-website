@@ -9,13 +9,16 @@
 .heading{
     text-align:center;
     font-size:50px;
+    font-weight:700;
     padding : 82px 10px 0 10px;
+    color: #1D619C;
 }
 .subHeading{
     
     font-size:36px;
     font-weight:700;
     padding : 10px 0 10px 0;
+    color: #1D619C;
 }
 
 

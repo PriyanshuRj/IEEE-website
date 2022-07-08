@@ -72,7 +72,7 @@ export default function Tutorial() {
         <div className={Style.Text} style={{ textAlign: "justify", textJustify: "inter-word" }}>
         The tutorial would present how data analytics would form the basis for
           recommender systems and prediction framework that would enable smart
-          manufacturing and industry 4.0
+          manufacturing and industry 4.0.
       </div>
         <div
           className=" mx-4 d-flex justify-content-around flex-wrap"
@@ -90,7 +90,7 @@ export default function Tutorial() {
           inter-atomic interactions and quantum mechanical properties need to be
           studied extensively. The tutorial would cover how nano-electronics
           would define the next generation of embedded systems and electronic
-          devices
+          devices.
       </div>
         <div
           className=" mx-4 d-flex justify-content-around flex-wrap"

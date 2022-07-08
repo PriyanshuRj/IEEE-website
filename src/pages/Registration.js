@@ -6,7 +6,7 @@ import styles from "../Styles/Registration.module.css";
 export default function Registration() {
     return(
         <div>
-            <SecondaryHero header={"Registration"}/>
+            <SecondaryHero header={"Registration"} majorHeader={"Main"}/>
            
             <h1 className={styles.Heading}>
                     Registration Fees

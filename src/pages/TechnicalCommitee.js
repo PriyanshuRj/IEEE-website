@@ -68,7 +68,7 @@ const Technical =[
 export default function TechnicalCommitee() {
   return (
     <div>
-      <SecondaryHero header={"Organizers"} />
+      <SecondaryHero header={"Technical Committee"} majorHeader={"Organizers"}/>
       <div
         className={
           "d-flex flex-column justify-content-center text-center " +

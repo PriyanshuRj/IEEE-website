@@ -1,116 +1,26 @@
-.bgBannerTwo {
-    background: url(../../public/IIIT_Sricity/sricity.png) no-repeat;
+.bgBanner {
+    background: linear-gradient(to top, #000000ba, #716e74cc), url(../../public/IIIT_Sricity/IIITSricity_photo3.png) no-repeat;
     background-size: cover;
-    background-position: right center;
-  }
-  .bannerTwo {
-    padding: 250px 0 150px;
-    position: relative;
-    overflow: hidden;
+    width: 100%;
+    min-height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
   }
 
-  .bannerTwo .block h1 {
+  .secondaryHeader{
+    color: white;
+    font-weight: 500;
+  }
+
+  .secondaryHeaderMain{
     color: #ff6600;
-    font-size: 88px;
   }
   
-  .bannerTwo .block h2 {
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 74px;
-    margin-bottom: 10px;
-  }
-  
-  .bannerTwo .block h3 {
-    font-size: 74px;
-  }
-  
-  .bannerTwo .block h6 {
-    margin-top: 48px;
-    font-weight: 400;
-    margin-bottom: 60px;
-  }
-  .overlayWhiteSlant:before {
-    content: '';
-    width: 100%;
-    margin-left: -45%;
-    background: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transform: skewX(-20deg);
-            transform: skewX(-20deg);
-  }
-  .textOverlay:after {
-    content: 'IEEE';
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 215px;
-    width: 100%;
-    height: 300px;
-    background-position: center center;
-    position: absolute;
-    top: 40%;
-    left: 45%;
-    opacity: .05;
-    -webkit-transform: translateX(-5%);
-            transform: translateX(-5%);
-  }
-  @media (max-width: 767px) {
-    .bgBannerTwo {
-        background: white;
-      }
-    .overlayWhiteSlant:before {
-        -webkit-transform: skewX(0deg);
-        transform: skewX(0deg);
-    }
-    .bannerTwo .block h1 {
-        color: #ff6600;
-        font-size: 60px;
-      }
-      
-      .bannerTwo .block h2 {
-        font-weight: 400;
-        
-        font-size: 50px;
-        
-      }
-      
-      .bannerTwo .block h3 {
-        font-size: 38px;
-      }
-      
-      .bannerTwo .block h6 {
-        margin-top: 20px;
-        font-weight: 300;
-        
-      }
-      .textOverlay:after {
-        left: 20%;
-
-      }
-  }
-  @media (max-width: 540px) {
-    .textOverlay:after {
-      height: 0px;
-      top: 30%;
-      left: 10%;
-      font-size: 200px;
-      /* font-weight: 500; */
+  @media (max-width: 600px) {
+    .secondaryHeader{
+      font-size: 1.5rem !important;
+      font-weight: 300;
     }
   }
-  @media (max-width: 425px) {
-    .bannerTwo {
-      padding: 60px 0 60px;
-    }
-    .textOverlay:after {
-      height: 0px;
-      top: 20%;
-      left: 20%;
-      font-size: 140px;
-      font-weight: 500;
-    }
-  }
-  

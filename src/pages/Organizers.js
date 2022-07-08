@@ -77,7 +77,7 @@ const TrackCochair=[
 export default function Organizers() {
   return (
     <div>
-      <SecondaryHero header={"Organizers"} />
+      <SecondaryHero header={"Organizing Committee"} majorHeader={"Organizers"}/>
       <div
         className={
           "d-flex flex-column justify-content-center text-center " +

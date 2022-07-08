@@ -34,7 +34,7 @@ const Local=[
 export default function OterComitee() {
   return (
     <div>
-      <SecondaryHero header={"Organizers"} />
+      <SecondaryHero header={"Other Committee"} majorHeader={"Organizers"}/>
       <div
         className={
           "d-flex flex-column justify-content-center text-center " +

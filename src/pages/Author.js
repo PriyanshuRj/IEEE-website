@@ -6,7 +6,7 @@ import Styles from "../Styles/Author.module.css";
 export default function Author() {
   return (
     <div>
-      <SecondaryHero header={"Author"} />
+      <SecondaryHero header={"Author"} majorHeader={"Main"} />
       <div className={Styles.container}>
         <div className={Styles.heading}>PAPER SUBMISSION</div>
         <div

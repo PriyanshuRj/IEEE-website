@@ -22,7 +22,7 @@ const SpeakersList = [
 export default function KeyNote() {
   return (
     <div>
-      <SecondaryHero header={"KeyNotes"} />
+      <SecondaryHero header={"KeyNotes"} majorHeader={"Programs"}/>
       <div className="d-flex justify-content-center m-4 "style = {{paddingTop: '3.8125rem'}}>
         <h2 className={Styles.title }> Keynote Speakers </h2>
       </div>

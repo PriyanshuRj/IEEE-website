@@ -49,7 +49,7 @@ const Tut3 = [
 export default function Tutorial() {
   return (
     <div>
-      <SecondaryHero header={"Tutorial"} />
+      <SecondaryHero header={"Tutorial"} majorHeader={"Programs"}/>
       <div
         className={
           "d-flex flex-column justify-content-center text-center " +

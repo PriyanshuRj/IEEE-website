@@ -28,7 +28,7 @@ ul.ulCards > li.liClass {
   );
   border-radius: var(--padding);
   padding: var(--padding);
-  --accent-color: #EF6C4C;
+  --accent-color: #f44949;
 
   --bs-rim: inset -0.1rem 0.1rem 0.1rem rgb(255 255 255 / 0.5);
   --bs-card-spread: 0.25rem;

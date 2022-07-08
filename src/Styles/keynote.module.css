@@ -1,9 +1,11 @@
 .title {
     position: relative;
-    font-size: 5rem;
+    font-size: 50px;
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
+    color: #1D619C;
+    font-weight:700;
 }
   
 .title::before {  

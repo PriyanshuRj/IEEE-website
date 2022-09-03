@@ -13,9 +13,9 @@ const Track1 = [{
 }]
 const Track2 = [{
   designation:"Chair",
-    name: "Dr. Anish Chand T",
+    name: "Dr. Padmini Singh",
     post: "IIIT Sricity",
-    img: "Anish-Chand-Turlapaty.jpg",
+    img: "padmini.jpg",
 }]
 const Track3 = [{
   designation:"Chair",

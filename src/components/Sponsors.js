@@ -23,13 +23,17 @@ export default function Sponsors() {
           <div className="col-lg-7">
             <div className={styles.logo_area}>
               <Row>
-              
-                <div className="col-lg-6 col-md-6 col-sm-6">
+                <div className="col-lg-4 col-md-4 col-sm-6">
+                  <div className={styles.single_logo + " mb-30"}>
+                    <img src="BannerPhotos/british-council.png" alt="" />
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-4 col-sm-6">
                   <div className={styles.single_logo + " mb-30"}>
                     <img src={ieee} alt="" />
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-6">
+                <div className="col-lg-4 col-md-4 col-sm-6">
                   <div className={styles.single_logo + " mb-30"}>
                     <img src={sricity} alt="" />
                   </div>

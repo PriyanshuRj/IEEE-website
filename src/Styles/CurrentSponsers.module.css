@@ -8,6 +8,12 @@
     padding : 3.8125rem 0px 0px 0px;
 }
 
+.SponsersHeaderText{
+    font-size:20px;
+    font-weight: 500;
+    padding : 3.8125rem 0px 0px 0px;
+}
+
 .SponsersImages{
     padding:10px 250px 10px 250px;
 }

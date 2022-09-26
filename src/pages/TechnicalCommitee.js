@@ -75,7 +75,7 @@ export default function TechnicalCommitee() {
           Styles.mainSection
         }
       >
-        <h1>Technical Program Co-Chairs</h1>
+        <h1>Technical Program Committee</h1>
 
         <div
           className=" mx-4 d-flex justify-content-around flex-wrap"

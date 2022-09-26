@@ -12,7 +12,7 @@ export default function ImportantDates() {
                         <div className={styles.timeLine}>
                             <a href="/" className={styles.timelineContent}>
                                 <div className={styles.timelineIcon}><i className="bi bi-card-heading"></i></div>
-                                <h3 className={styles.title}>31st August 2022</h3>
+                                <h3 className={styles.title}>30th September 2022</h3>
                                 <p className={styles.description}>
                                     Special Session/ Workshop Proposal
                                 </p>

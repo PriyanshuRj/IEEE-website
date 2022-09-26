@@ -3,6 +3,7 @@ import styles from "./Sponsors.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import ieee from "../Images/ieee-logo.png";
 import sricity from "../Images/sricity-logo.png";
+import britishcouncil from "../Images/britishcouncil.png";
 
 export default function Sponsors() {
   return (
@@ -13,7 +14,7 @@ export default function Sponsors() {
           <div className="col-lg-5 col-md-8">
             <div className={styles.section_tittle + " mb-50"}>
               <h2>Conference Sponsors</h2>
-              <p>Thank you to our sponsers for their support!</p>
+              <p>Thank you to our sponsors for their support!</p>
               <a href="#" className={styles.btn}>
                 Become a Sponsor
               </a>

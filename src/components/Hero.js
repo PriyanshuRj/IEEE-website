@@ -9,13 +9,13 @@ export default function Hero() {
           <div className={Styles.carouseitem}>
             <img
               className={"d-block w-100 " + Styles.heroImage}
-              src="/hero3.jpg"
+              src="BannerPhotos/IIIT_SriCity.jpg"
               alt="First slide"
             />
             <Carousel.Caption>
               <div className={Styles.block}>
                 <h3>
-                  11th International Conference on Electronics Systems, Devices
+                11th IEEE International Conference on Electronics Systems, Devices
                   and Computing
                 </h3>
                 <h3>2023</h3>
@@ -29,6 +29,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -44,8 +45,8 @@ export default function Hero() {
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                  11th International Conference on Electronics Systems, devices
-                  and computing
+                  11th IEEE International Conference on Electronics Systems, Devices
+                  and Computing
                 </h3>
                 <h3>2023</h3>
                 <h4>
@@ -58,6 +59,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -73,11 +75,12 @@ export default function Hero() {
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                  11th International Conference on Electronics Systems, devices
-                  and computing
+                11th IEEE International Conference on Electronics Systems, Devices
+                  and Computing
                 </h3>
                 <h3>2023</h3>
                 <h4>
+                  
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
                 </h4>
@@ -87,6 +90,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -95,15 +99,15 @@ export default function Hero() {
           <div className={Styles.carouseitem}>
             <img
               className={"d-block w-100 " + Styles.heroImage}
-              src="BannerPhotos/IIIT_Sricity.jpg"
+              src="/hero3.jpg"
               alt="Fourth slide"
             />
 
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                  11th International Conference on Electronics Systems, devices
-                  and computing
+                11th IEEE International Conference on Electronics Systems, Devices
+                  and Computing
                 </h3>
                 <h3>2023</h3>
                 <h4>
@@ -116,6 +120,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -124,15 +129,15 @@ export default function Hero() {
           <div className={Styles.carouseitem}>
             <img
               className={"d-block w-100 " + Styles.heroImage}
-              src="BannerPhotos/IIIT_Sricity_2.jpg"
+              src="BannerPhotos/IIIT_SriCity_2.jpg"
               alt="Fifth slide"
             />
 
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                  11th International Conference on Electronics Systems, devices
-                  and computing
+                11th IEEE International Conference on Electronics Systems, Devices
+                  and Computing
                 </h3>
                 <h3>2023</h3>
                 <h4>
@@ -145,6 +150,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -153,15 +159,15 @@ export default function Hero() {
           <div className={Styles.carouseitem}>
             <img
               className={"d-block w-100 " + Styles.heroImage}
-              src="BannerPhotos/Sricity_2.jpg"
+              src="BannerPhotos/SriCity_2.jpg"
               alt="Sixth slide"
             />
 
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                  11th International Conference on Electronics Systems, devices
-                  and computing
+                11th IEEE International Conference on Electronics Systems, Devices
+                  and Computing
                 </h3>
                 <h3>2023</h3>
                 <h4>
@@ -173,7 +179,9 @@ export default function Hero() {
                   <span>
                     <b>4-6 May 2023</b>
                   </span>
+
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>

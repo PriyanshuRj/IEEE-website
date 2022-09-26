@@ -1,0 +1,12 @@
+.poster {
+    width: 60vw;
+  }
+.posterDiv {
+    margin: 3rem 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .poster {
+      width: 80vw;
+    }
+  }

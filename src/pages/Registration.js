@@ -12,9 +12,9 @@ export default function Registration() {
                     Registration Fees
             </h1>
             <div className={styles.registerBox}>
-                <p className={styles.registerPara}> Conference Registration fee  -  8500 Rs</p>
-                <p className={styles.registerPara}>IEEE Member - 8000 Rs</p>
-                <p className={styles.registerPara}>Late Registration (for all)  - 9000 Rs</p>
+                <p className={styles.registerPara}> Conference Registration fee  -  6500 Rs</p>
+                <p className={styles.registerPara}>IEEE Member - 6000 Rs</p>
+                <p className={styles.registerPara}>Late Registration (for all)  - 8000 Rs</p>
             </div>
             
         </div>

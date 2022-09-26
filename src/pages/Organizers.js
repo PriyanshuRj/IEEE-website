@@ -39,6 +39,11 @@ const TechnicalChair1 =[
     img: "OrganizersCommittee/TPCo-chair1.png",
   },
   {
+    name: "Dr. Ramona Trestian ",
+    post: "Middlesex University, UK",
+    img: "Ramona-Trestian.jpg",
+  },
+  {
     name: "Prof. Justin Dauwels",
     post: "NTU Singapore",
     img: "OrganizersCommittee/TPCo-chair2.png",
@@ -67,6 +72,11 @@ const TrackCochair=[
     name: "Dr. Ram Bilas Pachori",
     post: "IIT Indore",
     img: "OrganizersCommittee/TrackCo-chair1.png",
+  },
+  {
+    name: "Dr. Purav Shah",
+    post: "Middlesex University, UK",
+    img: "shah_purav.jpg",
   },
   {
     name: "Dr. Anish Chand T",

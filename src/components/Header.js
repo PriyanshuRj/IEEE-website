@@ -97,7 +97,7 @@ export default function Header() {
                 </Link>
                 <Link to="/technical">
                   <NavDropdown.Item href="/">
-                    Technical Programming Committee
+                    Technical Program Committee
                   </NavDropdown.Item>
                 </Link>
                 <Link to="/other">
@@ -131,6 +131,9 @@ export default function Header() {
                 <Link to="/tutorial">
                   <NavDropdown.Item href="/">Tutorial</NavDropdown.Item>
                 </Link>
+                <Link to="/callforpapers">
+                  <NavDropdown.Item href="/">Call for Papers</NavDropdown.Item>
+                </Link>
                 </div>
               </NavDropdown>
               <Link to="/author">
@@ -140,7 +143,7 @@ export default function Header() {
               </Link>
               <NavDropdown
                 className={Styles.navItem + "  h5"}
-                title="Sponsers"
+                title="Sponsors"
                 id="basic-nav-dropdown"
                 show={SponsersShowBtn || SponsersShow}
                 onMouseEnter={() => setIsShownSponsers(true)}
@@ -155,7 +158,7 @@ export default function Header() {
                 </Link>
                 <Link to="/sponsersOppurtunities">
                   <NavDropdown.Item href="/">
-                    Sponsers Oppurtunities
+                    Sponsors Oppurtunities
                   </NavDropdown.Item>
                 </Link>
                 </div>

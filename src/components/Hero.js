@@ -29,6 +29,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -58,6 +59,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -87,6 +89,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -116,6 +119,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -145,6 +149,7 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>
@@ -173,7 +178,9 @@ export default function Hero() {
                   <span>
                     <b>4-6 May 2023</b>
                   </span>
+
                 </h3>
+                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
               </div>
             </Carousel.Caption>
           </div>

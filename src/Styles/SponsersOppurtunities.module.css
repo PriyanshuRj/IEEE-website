@@ -7,6 +7,20 @@
     padding-bottom: 3rem;
     text-align: center;
 }
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  overflow-wrap: break-word;
+  font-size: 2rem;
+}
+
+.normalText{
+  text-align:left;
+  font-size: 3.5vmin;
+  padding:5px 0px 5px 0px;
+}
+
   
 .title::before {  
     transform: scaleX(0);

@@ -8,8 +8,8 @@ export default function SponsorsOppurtunities() {
     <div>
         <SecondaryHero header={"Sponsership Oppurtunities"} majorHeader={"Sponsers"}/>
         <div style={{paddingTop : '3.8125rem'}}>
-        <div className="d-flex justify-content-center m-4 ">
-        <h2 className={Styles.title }> Will be Updated Soon </h2>
+        <div className={Styles.container}>
+        <h2 className={Styles.normalText}>  Organizations/Institutions in contributing or participating in this exciting conference are encouraged to contact the General co chair at <a href = "mailto:  hvraman@iiits.in"> hvraman@iiits.in</a> or <a href = "mailto:  11.ieee.esdc@iiits.in"> 11.ieee.esdc@iiits.in</a>. </h2>
         </div>
       </div><div style = {{paddingBottom: '3.8125rem'}}></div>
 

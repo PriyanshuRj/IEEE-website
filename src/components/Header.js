@@ -150,14 +150,13 @@ export default function Header() {
                 <div
                 onMouseLeave={() => setIsShownSponsers(false)}
                 onClick={() => SponsersBtn()} >
-                  
+                <Link to="/currentSponsers">
+                  <NavDropdown.Item href="/">Current Sponsers</NavDropdown.Item>
+                </Link>
                 <Link to="/sponsersOppurtunities">
                   <NavDropdown.Item href="/">
                     Sponsers Oppurtunities
                   </NavDropdown.Item>
-                </Link>
-                <Link to="/currentSponsers">
-                  <NavDropdown.Item href="/">Current Sponsers</NavDropdown.Item>
                 </Link>
                 </div>
               </NavDropdown>

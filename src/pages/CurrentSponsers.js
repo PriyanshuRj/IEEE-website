@@ -7,7 +7,7 @@ export default function CurrentSponsers() {
          <SecondaryHero header={"Current Sponsers"} majorHeader={"Sponsers"}/>
     
     <figure className="text-center">
-    <h1 className={styles.SponsersText}><strong>Thank you to our sponsers for their support!</strong></h1>
+    <h1 className={styles.SponsersText}><strong>Thank you to our sponsors for their support!</strong></h1>
 
     </figure>
     <div class="text-center">

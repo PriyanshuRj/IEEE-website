@@ -9,7 +9,7 @@ export default function Hero() {
           <div className={Styles.carouseitem}>
             <img
               className={"d-block w-100 " + Styles.heroImage}
-              src="/hero3.jpg"
+              src="BannerPhotos/IIIT_SriCity.jpg"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -80,6 +80,7 @@ export default function Hero() {
                 </h3>
                 <h3>2023</h3>
                 <h4>
+                  
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
                 </h4>
@@ -98,7 +99,7 @@ export default function Hero() {
           <div className={Styles.carouseitem}>
             <img
               className={"d-block w-100 " + Styles.heroImage}
-              src="BannerPhotos/IIIT_SriCity.jpg"
+              src="/hero3.jpg"
               alt="Fourth slide"
             />
 

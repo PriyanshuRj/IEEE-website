@@ -3,6 +3,7 @@ import styles from "./Sponsors.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import ieee from "../Images/ieee-logo.png";
 import sricity from "../Images/sricity-logo.png";
+import britishcouncil from "../Images/britishcouncil.png";
 
 export default function Sponsors() {
   return (
@@ -22,6 +23,7 @@ export default function Sponsors() {
           <div className="col-lg-7">
             <div className={styles.logo_area}>
               <Row>
+              
                 <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className={styles.single_logo + " mb-30"}>
                     <img src={ieee} alt="" />

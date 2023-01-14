@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import img from "../Images/ieee-logo.png";
+
+import sricity from "../Images/IIITSricity.jpg";
+import london from "../Images/London.jpg";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Footer() {
@@ -10,12 +13,43 @@ export default function Footer() {
       <Container>
         <Row>
           <Col lg="12">
+          
             <div className={styles.footer_text}>
-              <div className={styles.ft_logo}>
-                <a href="#" className={styles.footer_logo}>
-                  <img src={img} alt="" />
-                </a>
-              </div>
+            <div className={styles.horizontalCutText}>Jointly Organized by </div>
+            <div className="col-lg-12">
+            <div className={styles.logo_area}>
+              <Row>
+              <div className="col-xs-6 col-md-3 col-sm-1">
+                  <div className={styles.ft_logo + " mb-10" + {display : "right"}}>
+                    <a href="#" className={styles.footer_logo}>
+                    
+                    </a>
+                  </div>
+                </div>
+                <div className="col-xs-6 col-md-3 col-sm-1">
+                  <div className={styles.ft_logo + " mb-10" + {display : "right"}}>
+                    <a href="#" className={styles.footer_logo}>
+                    <img src={sricity} alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div className="col-xs-6 col-md-3 col-sm-1">
+                  <div className={styles.ft_logo + " mb-10" + {display : "left"}}>
+                  <a href="#" className={styles.footer_logo}>
+                    <img src={london} alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div className="col-xs-6 col-md-3 col-sm-1">
+                  <div className={styles.ft_logo + " mb-10" + {display : "right"}}>
+                    <a href="#" className={styles.footer_logo}>
+                    
+                    </a>
+                  </div>
+                </div>
+              </Row>
+            </div>
+          </div>
               <ul>
                 <li>
                   <a href="#">Home</a>

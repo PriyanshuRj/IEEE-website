@@ -19,10 +19,8 @@ export default function Hero() {
                   and Computing
                 </h3>
                 <h3>2023</h3>
-                <h4>
-                  Hosted by Indian Institute of Information Technology (IIIT)
-                  Sri City, India
-                </h4>
+                <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
+                
                 <h3>
                   Conference Date:{" "}
                   <span>
@@ -30,6 +28,11 @@ export default function Hero() {
                   </span>
                 </h3>
                 <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
+                <h3>[Blended Mode]</h3>
+                <h4>
+                  Hosted by Indian Institute of Information Technology (IIIT)
+                  Sri City, India
+                </h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -49,10 +52,7 @@ export default function Hero() {
                   and Computing
                 </h3>
                 <h3>2023</h3>
-                <h4>
-                  Hosted by Indian Institute of Information Technology (IIIT)
-                  Sri City, India
-                </h4>
+                <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}
                   <span>
@@ -60,6 +60,12 @@ export default function Hero() {
                   </span>
                 </h3>
                 <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
+                <h3>[Blended Mode]</h3>
+                
+                <h4>
+                  Hosted by Indian Institute of Information Technology (IIIT)
+                  Sri City, India
+                </h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -79,11 +85,7 @@ export default function Hero() {
                   and Computing
                 </h3>
                 <h3>2023</h3>
-                <h4>
-                  
-                  Hosted by Indian Institute of Information Technology (IIIT)
-                  Sri City, India
-                </h4>
+                <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}
                   <span>
@@ -91,6 +93,12 @@ export default function Hero() {
                   </span>
                 </h3>
                 <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
+                <h3>[Blended Mode]</h3>
+                
+                <h4>
+                  Hosted by Indian Institute of Information Technology (IIIT)
+                  Sri City, India
+                </h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -110,10 +118,7 @@ export default function Hero() {
                   and Computing
                 </h3>
                 <h3>2023</h3>
-                <h4>
-                  Hosted by Indian Institute of Information Technology (IIIT)
-                  Sri City, India
-                </h4>
+                <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}
                   <span>
@@ -121,6 +126,12 @@ export default function Hero() {
                   </span>
                 </h3>
                 <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
+                <h3>[Blended Mode]</h3>
+               
+                <h4>
+                  Hosted by Indian Institute of Information Technology (IIIT)
+                  Sri City, India
+                </h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -140,10 +151,7 @@ export default function Hero() {
                   and Computing
                 </h3>
                 <h3>2023</h3>
-                <h4>
-                  Hosted by Indian Institute of Information Technology (IIIT)
-                  Sri City, India
-                </h4>
+                <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}
                   <span>
@@ -151,6 +159,11 @@ export default function Hero() {
                   </span>
                 </h3>
                 <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
+                <h3>[Blended Mode]</h3>
+                <h4>
+                  Hosted by Indian Institute of Information Technology (IIIT)
+                  Sri City, India
+                </h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -170,10 +183,7 @@ export default function Hero() {
                   and Computing
                 </h3>
                 <h3>2023</h3>
-                <h4>
-                  Hosted by Indian Institute of Information Technology (IIIT)
-                  Sri City, India
-                </h4>
+                <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}
                   <span>
@@ -182,6 +192,12 @@ export default function Hero() {
 
                 </h3>
                 <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
+                <h3>[Blended Mode]</h3>
+               
+                <h4>
+                  Hosted by Indian Institute of Information Technology (IIIT)
+                  Sri City, India
+                </h4>
               </div>
             </Carousel.Caption>
           </div>

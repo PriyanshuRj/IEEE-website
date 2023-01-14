@@ -15,9 +15,14 @@
 
 .footer_text .ft_logo a {
 	display: inline-block;
+	float: center;
+	
+	
+	
 }
 .footer_text .ft_logo .footer_logo img {
 	width: 200px;
+	height:141.25px;
 }
 
 .footer_text ul {
@@ -71,3 +76,22 @@
 .footer_text .ft_social a:last-child {
 	margin-right: 0;
 }
+.horizontalCutText{
+    font-size: 30px;
+    font-weight: 400;
+	color:white;
+    /* font-family: "Catamaran", sans-serif;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(270deg, #170d48, #299edd 50%, transparent 50%), -webkit-repeating-linear-gradient(90deg, transparent, transparent 3%, white 3%, white 6%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 6px 6px rgba(0, 0, 0, 0.4);
+    text-align: center; */
+  }
+  .column {
+	float: left;
+	width: 30%;
+	padding: 5px;
+  }
+ 

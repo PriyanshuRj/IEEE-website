@@ -17,11 +17,11 @@ const TablePage=(props)=>{
         rows:[
             {
                 'name':'Special Session/ Workshop Proposal due:',
-                'date':'30th September 2022'
+                'date':'15th September 2022'
             },
             {
                 'name':'Regular Paper Submission due:',
-                'date':'31st October 2022'
+                'date':'22nd January 2023'
             },
             {
                 'name':'Paper Acceptance Date',

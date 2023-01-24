@@ -17,7 +17,7 @@ const TablePage = (props) => {
     rows: [
       {
         name: "Regular Paper Submission due:",
-        date: "22nd January 2023",
+        date: "7th Feb 2023",
       },
       {
         name: "Camera-Ready Paper Submission due:",

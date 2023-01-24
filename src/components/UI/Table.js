@@ -21,7 +21,7 @@ const TablePage=(props)=>{
             },
             {
                 'name':'Regular Paper Submission due:',
-                'date':'22nd January 2023'
+                'date':'7th February 2023'
             },
             {
                 'name':'Paper Acceptance Date',

@@ -5,8 +5,6 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function About() {
   return (
     <section className={styles.home_about_section}
-    
-
     >
       <Container>
         <Row>

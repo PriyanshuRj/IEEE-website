@@ -4,7 +4,10 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function About() {
   return (
-    <section className={styles.home_about_section}>
+
+    <section className={styles.home_about_section}
+    >
+
       <Container>
         <div className={styles.deadline}>
           <h1>

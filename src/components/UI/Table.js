@@ -20,24 +20,24 @@ const TablePage=(props)=>{
                 'date':'15th September 2022'
             },
             {
-                'name':'Regular Paper Submission due:',
+                'name':'Last Deadline for Submission:',
                 'date':'7th February 2023'
             },
             {
                 'name':'Paper Acceptance Date',
-                'date':'15th February 2023'
-            },
-            {
-                'name':'Camera-Ready Paper Submission due:',
                 'date':'15th March 2023'
             },
             {
+                'name':'Camera-Ready Paper Submission due:',
+                'date':'15th April 2023'
+            },
+            {
                 'name':'Early Registration due:',
-                'date':'15th March 2022'
+                'date':'15th April 2022'
             },
             {
                 'name':'Late Registration Due',
-                'date':'1st April 2023'
+                'date':'1st May 2023'
             },
         ]
     };

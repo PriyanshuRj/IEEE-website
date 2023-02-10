@@ -33,7 +33,7 @@ export default function Hero() {
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
                 </h4>
-                <h4><b><span>Deadline postponed to 7th February</span></b></h4>
+                <h4><b><span>Final Deadline is 7th February</span></b></h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -67,7 +67,7 @@ export default function Hero() {
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
                 </h4>
-                <h4><b><span>Deadline postponed to 7th February</span></b></h4>
+                <h4><b><span>Final Deadline is 7th February</span></b></h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -101,7 +101,7 @@ export default function Hero() {
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
                 </h4>
-                <h4><b><span>Deadline postponed to 7th February</span></b></h4>
+                <h4><b><span>Final Deadline is 7th February</span></b></h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -135,7 +135,7 @@ export default function Hero() {
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
                 </h4>
-                <h4><b><span>Deadline postponed to 7th February</span></b></h4>
+                <h4><b><span>Final Deadline is 7th February</span></b></h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -168,7 +168,7 @@ export default function Hero() {
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
                 </h4>
-                <h4><b><span>Deadline postponed to 7th February</span></b></h4>
+                <h4><b><span>Final Deadline is 7th February</span></b></h4>
               </div>
             </Carousel.Caption>
           </div>
@@ -203,7 +203,7 @@ export default function Hero() {
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
                 </h4>
-                <h4><b><span>Deadline postponed to 7th February</span></b></h4>
+                <h4><b><span>Final Deadline is 7th February</span></b></h4>
               </div>
             </Carousel.Caption>
           </div>

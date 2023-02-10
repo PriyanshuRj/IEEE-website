@@ -16,12 +16,12 @@ const TablePage = (props) => {
     ],
     rows: [
       {
-        name: "Regular Paper Submission due:",
+        name: "Last Deadline for submission:",
         date: "7th Feb 2023",
       },
       {
         name: "Camera-Ready Paper Submission due:",
-        date: "15th March 2023",
+        date: "15th April 2023",
       },
       {
         name: "Conference Date :",

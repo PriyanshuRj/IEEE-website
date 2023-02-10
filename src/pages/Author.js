@@ -105,6 +105,69 @@ export default function Author() {
           </p>
           </div>
           <div
+          data-aos={"fade-left"}
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out-cubic"
+        >
+          <div className={Styles.subHeading}>Author Registration</div>
+          <ul className={Styles.normalText} style={{ textAlign: "justify", textJustify: "inter-word" }}>
+  <li>Authors of accepted papers need to register according to the Author Registration Rates.</li>
+  <li>Accepted papers will be subject to the registration requirements of this conference.</li>
+  <li>All the submitted abstracts will be evaluated for presentation, in the form of poster or oral
+presentation.</li>
+<li>For an accepted paper to be presented, at least one author must be registered.</li>
+</ul> 
+          </div>
+          <div
+          data-aos={"fade-right"}
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out-cubic"
+        >
+          <div className={Styles.subHeading}>Paper Specifications</div>
+          <ul className={Styles.normalText} style={{ textAlign: "justify", textJustify: "inter-word" }}>
+  <li>Your paper must comply with
+the following specifications:</li>
+  <li>Paper Length: Maximum 4 pages | <b>The body of the paper (i.e. text, figures, tables)
+should be 3 pages max, while reference should be 1 page max.</b></li>
+  <li>Paper Size: US Letter (8.5″ x 11″).</li>
+<li>Fonts: Embed ALL fonts in your PDF file. Avoid the use of Type 3 fonts.</li>
+<li>File Format: Adobe PDF (.pdf)</li>
+<li>Allowed File Size: 2.0Mb</li>
+<li>Do NOT page number your paper</li>
+<li>Do NOT apply security settings to your PDF file.</li>
+</ul> 
+<p className={Styles.normalText}style={{ textAlign: "justify", textJustify: "inter-word", color:'red' }}>
+<b>Note: Deviations from the above paper specifications will result in rejection of your
+submission.</b>
+          </p>
+          </div>
+          <div
+          data-aos={"fade-left"}
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out-cubic"
+        >
+          <div className={Styles.subHeading}>Additional Requirements</div>
+          <p className={Styles.normalText}style={{ textAlign: "justify", textJustify: "inter-word" }}>
+          If your paper is accepted for publication at this conference, you will also need to adhere
+to the following requirements:
+          </p>
+          <ul className={Styles.normalText} style={{ textAlign: "justify", textJustify: "inter-word" }}>
+  <li>IEEE policy requires that you send us a signed Copyright Form for each paper. Without
+this form, we can NOT publish your article.</li>
+  <li>REMINDER: At least one author per paper must be registered AND attend the
+conference to present their paper.</li>
+  <li>IEEE reserves the right to exclude any accepted paper from distribution after the
+conference (including, removal from IEEE Xplore) if the accepted paper is not presented
+at the conference.</li>
+
+</ul> 
+          </div>
+          
+        
+          <div
            data-aos={"fade-left"}
            data-aos-delay="50"
            data-aos-duration="1000"

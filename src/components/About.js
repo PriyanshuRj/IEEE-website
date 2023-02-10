@@ -11,10 +11,10 @@ export default function About() {
       <Container>
         <div className={styles.deadline}>
           <h1>
-            <i style={{ fontWeight: "500", fontSize: "35px", color: "#ED4848" }}>
+            <p style={{ fontWeight: "500", fontSize: "35px", color: "#ED4848" }}>
               Deadline postponed due to multiple requests because of Lunar New
               Year. <br/>Last and Final Deadline is 7th February 2023
-            </i>
+            </p>
           </h1>
         </div>
 

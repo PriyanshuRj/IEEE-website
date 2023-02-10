@@ -15,10 +15,8 @@ export default function Hero() {
             <Carousel.Caption styles = {{paddingBottom :"0"}}>
               <div className={Styles.block}>
                 <h3>
-                11th IEEE International Conference on Electronics Systems, Devices
-                  and Computing
-                </h3>
-                <h3>2023</h3>
+                11th IEEE International Conference on ESDC
+                 2023</h3>
                 <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 
                 <h3>
@@ -27,8 +25,8 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
-                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
-                <h3>[Blended Mode]</h3>
+                <h4>Theme : Cyber Physical System (Industry 4.0)</h4>
+                <h4>[Blended Mode]</h4>
                 <h4>
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
@@ -49,10 +47,8 @@ export default function Hero() {
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                  11th IEEE International Conference on Electronics Systems, Devices
-                  and Computing
-                </h3>
-                <h3>2023</h3>
+                  11th IEEE International Conference on ESDC
+                 2023</h3>
                 <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}
@@ -60,8 +56,8 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
-                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
-                <h3>[Blended Mode]</h3>
+                <h4>Theme : Cyber Physical System (Industry 4.0)</h4>
+                <h4>[Blended Mode]</h4>
                 
                 <h4>
                   Hosted by Indian Institute of Information Technology (IIIT)
@@ -83,10 +79,8 @@ export default function Hero() {
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                11th IEEE International Conference on Electronics Systems, Devices
-                  and Computing
-                </h3>
-                <h3>2023</h3>
+                11th IEEE International Conference on ESDC
+                 2023</h3>
                 <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}
@@ -94,8 +88,8 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
-                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
-                <h3>[Blended Mode]</h3>
+                <h4>Theme : Cyber Physical System (Industry 4.0)</h4>
+                <h4>[Blended Mode]</h4>
                 
                 <h4>
                   Hosted by Indian Institute of Information Technology (IIIT)
@@ -117,10 +111,8 @@ export default function Hero() {
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                11th IEEE International Conference on Electronics Systems, Devices
-                  and Computing
-                </h3>
-                <h3>2023</h3>
+                11th IEEE International Conference on ESDC
+                 2023</h3>
                 <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}
@@ -151,10 +143,8 @@ export default function Hero() {
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                11th IEEE International Conference on Electronics Systems, Devices
-                  and Computing
-                </h3>
-                <h3>2023</h3>
+                11th IEEE International Conference on ESDC
+                 2023</h3>
                 <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}
@@ -162,8 +152,8 @@ export default function Hero() {
                     <b>4-6 May 2023</b>
                   </span>
                 </h3>
-                <h3>Theme : Cyber Physical System (Industry 4.0)</h3>
-                <h3>[Blended Mode]</h3>
+                <h4>Theme : Cyber Physical System (Industry 4.0)</h4>
+                <h4>[Blended Mode]</h4>
                 <h4>
                   Hosted by Indian Institute of Information Technology (IIIT)
                   Sri City, India
@@ -184,10 +174,8 @@ export default function Hero() {
             <Carousel.Caption className={Styles.heroCaption}>
               <div className={Styles.block}>
                 <h3>
-                11th IEEE International Conference on Electronics Systems, Devices
-                  and Computing
-                </h3>
-                <h3>2023</h3>
+                11th IEEE International Conference on ESDC
+                 2023</h3>
                 <h4><b>Jointly Organized by IIIT Sri City and London Digital Twin Research Centre (UK)</b></h4>
                 <h3>
                   Conference Date:{" "}

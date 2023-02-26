@@ -16,6 +16,11 @@ export default function About() {
               Year. <br/>Last and Final Deadline is 7th February 2023
             </p>
           </h1>
+          <h2>
+            <p style={{ fontWeight: "300", fontSize: "30px", color: "#ED4848" }}>
+            If you have any questions, please contact Conference Support Coordinator, Mr. Mahesh at <b>+91&nbsp;95023 82814</b>
+            </p>
+          </h2>
         </div>
 
         <Row>
@@ -44,18 +49,7 @@ export default function About() {
             >
               <h2 style={{ color: "#1D619C" }}>ESDC 2023</h2>
               <p style={{ textAlign: "justify", textJustify: "inter-word" }}>
-                The next generation of smart manufacturing, typically called
-                Industry 4.0 deals with enhancing and upgrading the whole
-                manufacturing processes through a combination of
-                state-of-the-art electronic systems, devices and computing
-                capabilities. These include: wired/wireless connected sensors,
-                actuators, 3D printers, renewable energy-based devices,
-                intelligent machines for computing, etc. The electronics
-                industry has been going through a rapid evolution which in-turn
-                requires integration of inter-disciplinary technologies such as
-                electronics systems, new portable devices and intelligent
-                computing, together called as Electronics Systems, devices and
-                computing (ESDC).
+              The next generation of smart manufacturing, typically called Industry 4.0 deals with enhancing and upgrading the whole manufacturing process through a combination of state-of-the-art electronic systems, devices, and computing capabilities. These include wired/wireless connected sensors, actuators, 3D printers, renewable energy-based devices, intelligent machines for computing, etc. The electronics industry has been going through a rapid evolution which in turn requires the integration of inter-disciplinary technologies such as electronics systems, new portable devices, and intelligent computing together called Electronics Systems, devices, and computing (ESDC).
               </p>
 
               {/* <ul>

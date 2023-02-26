@@ -12,6 +12,7 @@ export default function Home() {
         <About />
         <Join />
         <Calander />
+        
         <Sponsors />
         <ContactUs />
     </div>

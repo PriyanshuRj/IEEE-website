@@ -58,7 +58,8 @@ export default function Tutorial() {
       >
         <h1>Smart Transportation</h1>
         <div className={Style.Text} style={{ textAlign: "justify", textJustify: "inter-word" }}>
-        Smart Transportation involve an amalgamation of transportation systems, traffic control systems, traffic safety systems and other automated applications related to transportation technology. The tutorial would present the different challenges in the Indian scenario and emphasize on how different technologies such as IoT / Sensors for ADAS, Co-operative Autonomy, Computer Vision, Machine Learning / Deep Learning, etc could be used to solve the challenges.
+        Smart Transportation involves an amalgamation of transportation systems, traffic control systems, traffic safety systems, and other automated applications related to transportation technology. The tutorial would present the different challenges in the Indian scenario and emphasize how different technologies such as IoT / Sensors for ADAS, Co-operative Autonomy, Computer Vision, Machine Learning / Deep Learning, etc could be used to solve the challenges.
+
       </div>
         <div
           className=" mx-4 d-flex justify-content-around flex-wrap"
@@ -89,7 +90,7 @@ export default function Tutorial() {
         <h1>Data Analytics</h1>
         <div className={Style.Text} style={{ textAlign: "justify", textJustify: "inter-word" }}>
         The tutorial would present how data analytics would form the basis for
-          recommender systems and prediction framework that would enable smart
+          recommender systems and prediction frameworks that would enable smart
           manufacturing and industry 4.0.
       </div>
         <div

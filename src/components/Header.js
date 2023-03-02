@@ -60,7 +60,7 @@ export default function Header() {
         <Container fluid>
           <Link to="/">
             <Navbar.Brand href="/" className={Styles.navHead}>
-              IEEE
+              EDSC
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="navbarScroll" />

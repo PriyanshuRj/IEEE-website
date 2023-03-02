@@ -8,7 +8,7 @@ export default function callforpapers() {
         <SecondaryHero header={"Call for Papers"} majorHeader={"Programs"}/>
 
        <div style = {{textAlign: "center"}} className={styles.posterDiv}>
-       <img src="/11th_IEEE_ESDC_2023.jpg"  className = {styles.poster} alt=""/>
+       <img src="/11th_IEEE_ESDC_2023.png"  className = {styles.poster} alt=""/>
        </div>
     </div>
   )

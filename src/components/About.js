@@ -12,8 +12,7 @@ export default function About() {
         <div className={styles.deadline}>
           <h1>
             <p style={{ fontWeight: "500", fontSize: "35px", color: "#ED4848" }}>
-              Deadline postponed due to multiple requests because of Lunar New
-              Year. <br/>Last and Final Deadline is 7th February 2023
+              <br/>Last date of submission is over on 7th February.
             </p>
           </h1>
           <h2>

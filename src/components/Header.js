@@ -60,7 +60,7 @@ export default function Header() {
         <Container fluid>
           <Link to="/">
             <Navbar.Brand href="/" className={Styles.navHead}>
-              EDSC
+              ESDC
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -163,7 +163,11 @@ export default function Header() {
                 </Link>
                 </div>
               </NavDropdown>
-
+              <Link to="/gettinghere">
+                <Nav.Link className={Styles.navItem + " h5"} href="/">
+                  Getting Here
+                </Nav.Link>
+              </Link>
               <Link to="/registration">
                 <Nav.Link className={Styles.navItem + " h5"} href="/">
                   Registration

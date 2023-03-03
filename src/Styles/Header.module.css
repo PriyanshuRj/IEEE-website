@@ -9,7 +9,7 @@
   padding-left: 10px;
   margin: 1rem;
 }
-@media (max-width: 984px) {
+@media (max-width: 1100px) {
   .navItem {
     margin: 0rem;
   }

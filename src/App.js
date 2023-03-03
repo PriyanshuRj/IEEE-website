@@ -14,6 +14,7 @@ import CurrentSponsers from "./pages/CurrentSponsers";
 import Registration from "./pages/Registration";
 import UpperHeader from "./components/UpperHeader";
 import Callforpapers from "./pages/Callforpapers";
+import Gettinghere from "./pages/Gettinghere";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -46,6 +47,7 @@ function App() {
           <Route exact path = "/currentSponsers" element={<CurrentSponsers />} />
           <Route exact path = "/registration" element={<Registration />} />
           <Route exact path = "/callforpapers" element={<Callforpapers />} />
+          <Route exact path = "/gettinghere" element={<Gettinghere />} />
         </Routes>
         <Footer />
       </Router>

@@ -96,7 +96,7 @@ export default function Gettinghere() {
         </Container>
         <div style={{ padding: "10px" }}></div>
         <Container>
-          <Row>
+          <Row className={styles.reverse_direction}>
             <Col lg="6" className="m-auto">
               <div
                 className={styles.ha_pic}
@@ -139,26 +139,7 @@ export default function Gettinghere() {
                   }}
                 >
                   The main bus terminus is in Sullurpeta and only 25 kms from
-                  Sri City. Besides services by numerous private operators,
-                  APSRTC also plies regular services from Chennai, Tirupathi,
-                  Vijaywada, Ponneri, Sullurupeta, Thiruvallur, etc.
-                </p>
-                <p
-                  style={{
-                    textAlign: "justify",
-                    textJustify: "inter-word",
-                    fontSize: "25px",
-                    lineHeight: "1.5",
-                    Color: "black",
-                  }}
-                >
-                  <a
-                    href="https://www.apsrtconline.in/oprs-web/guest/home.do?h=1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    To book tickets, click here.
-                  </a>
+                  Sri City.
                 </p>
               </div>
             </Col>
@@ -274,7 +255,7 @@ export default function Gettinghere() {
         </Container>
         <div style={{ padding: "10px" }}></div>
         <Container>
-          <Row>
+          <Row className={styles.reverse_direction}>
             <Col lg="6" className="m-auto">
               <div
                 className={styles.ha_pic}

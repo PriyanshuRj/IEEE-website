@@ -52,22 +52,22 @@ export default function Footer() {
           </div>
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="#">Authors</a>
+                  <a href="/author">Authors</a>
                 </li>
                 <li>
-                  <a href="#">Sponsors</a>
+                  <a href="/callforpapers">Call For Papers</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <a href="/gettinghere">Getting Here</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="/registration">Registration</a>
                 </li>
               </ul>
-              <div className={styles.ft_social}>
+              {/* <div className={styles.ft_social}>
                 <a href="#">
                   <i className="bi bi-facebook"></i>
                 </a>
@@ -80,7 +80,7 @@ export default function Footer() {
                 <a href="#">
                   <i className="bi bi-instagram"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>

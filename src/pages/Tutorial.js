@@ -41,9 +41,9 @@ const Tut3 = [
   },
   {
     designation:"Co-Chair",
-    name: "TBD",
-    post:"TBD",
-    img: "dummyImage.jpeg",
+    name: "Mr. Vijay Nair",
+    post:"Regional Head (APAC, MEA), Data Science at Levi's Strauss",
+    img: "Vijay_nair.png",
   },
 ];
 export default function Tutorial() {

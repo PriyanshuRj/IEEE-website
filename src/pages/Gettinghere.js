@@ -28,7 +28,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "30px",
+                    fontSize: "25px",
                     lineHeight: "1.5",
                     Color: "black",
                   }}
@@ -70,7 +70,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "25px",
+                    fontSize: "20px",
                     lineHeight: "1.5",
                     Color: "black",
                   }}
@@ -121,7 +121,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "25px",
+                    fontSize: "20px",
                     lineHeight: "1.5",
                     Color: "black",
                   }}
@@ -133,7 +133,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "25px",
+                    fontSize: "20px",
                     lineHeight: "1.5",
                     Color: "black",
                   }}
@@ -180,7 +180,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "25px",
+                    fontSize: "20px",
                     lineHeight: "1.3",
                     Color: "black",
                   }}
@@ -192,7 +192,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "25px",
+                    fontSize: "20px",
                     lineHeight: "1.3",
                     Color: "black",
                   }}
@@ -210,7 +210,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "25px",
+                    fontSize: "20px",
                     lineHeight: "1.3",
                     Color: "black",
                   }}
@@ -224,7 +224,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "25px",
+                    fontSize: "20px",
                     lineHeight: "1.3",
                     Color: "black",
                   }}
@@ -242,7 +242,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "25px",
+                    fontSize: "20px",
                     lineHeight: "1.3",
                     Color: "black",
                   }}
@@ -299,7 +299,7 @@ export default function Gettinghere() {
                   style={{
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    fontSize: "25px",
+                    fontSize: "20px",
                     lineHeight: "1.3",
                     Color: "black",
                   }}

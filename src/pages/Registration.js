@@ -1,6 +1,6 @@
 import React from "react";
 import SecondaryHero from "../components/SecondaryHero";
-import styles from "../Styles/Registration.module.css";
+// import styles from "../Styles/Registration.module.css";
 import Styles from "../Styles/Author.module.css";
 
 export default function Registration() {

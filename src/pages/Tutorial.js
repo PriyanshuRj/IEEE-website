@@ -27,9 +27,9 @@ const Tut2 = [
   },
   {
     designation:"Co-Chair",
-    name: "TBD",
-    post:"TBD",
-    img: "dummyImage.jpeg",
+    name: "Dr. Manoj Kumar Majumder",
+    post:"IIIT Naya Raipur",
+    img: "OtherCommittee/manoj_0.jpeg",
   },
 ];
 const Tut3 = [
@@ -56,6 +56,20 @@ export default function Tutorial() {
           Styles.mainSection
         }
       >
+      <h1>Data Analytics</h1>
+        <div className={Style.Text} style={{ textAlign: "justify", textJustify: "inter-word" }}>
+        The tutorial would present how data analytics would form the basis for
+          recommender systems and prediction frameworks that would enable smart
+          manufacturing and industry 4.0.
+      </div>
+        <div
+          className=" mx-4 d-flex justify-content-around flex-wrap"
+          style={{ marginBottom: "21px" }}
+        >
+          {Tut3.map((speaker, index) => {
+            return <SpeakerCard speaker={speaker} key={index} index={index} />;
+          })}
+        </div>
         <h1>Smart Transportation</h1>
         <div className={Style.Text} style={{ textAlign: "justify", textJustify: "inter-word" }}>
         Smart Transportation involves an amalgamation of transportation systems, traffic control systems, traffic safety systems, and other automated applications related to transportation technology. The tutorial would present the different challenges in the Indian scenario and emphasize how different technologies such as IoT / Sensors for ADAS, Co-operative Autonomy, Computer Vision, Machine Learning / Deep Learning, etc could be used to solve the challenges.
@@ -87,20 +101,7 @@ export default function Tutorial() {
             return <SpeakerCard speaker={speaker} key={index} index={index} />;
           })}
         </div>
-        <h1>Data Analytics</h1>
-        <div className={Style.Text} style={{ textAlign: "justify", textJustify: "inter-word" }}>
-        The tutorial would present how data analytics would form the basis for
-          recommender systems and prediction frameworks that would enable smart
-          manufacturing and industry 4.0.
-      </div>
-        <div
-          className=" mx-4 d-flex justify-content-around flex-wrap"
-          style={{ marginBottom: "21px" }}
-        >
-          {Tut3.map((speaker, index) => {
-            return <SpeakerCard speaker={speaker} key={index} index={index} />;
-          })}
-        </div>
+        
       </div>
       <div style = {{paddingBottom: '3.8125rem'}}></div>
     </div>

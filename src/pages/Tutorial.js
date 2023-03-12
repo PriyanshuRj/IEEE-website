@@ -29,7 +29,7 @@ const Tut2 = [
     designation:"Co-Chair",
     name: "Dr. Manoj Kumar Majumder",
     post:"IIIT Naya Raipur",
-    img: "OtherCommittee/manoj_0.jpeg",
+    img: "OtherCommittee/manoj_0.jpg",
   },
 ];
 const Tut3 = [

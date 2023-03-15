@@ -84,6 +84,7 @@ export default function Registration() {
               Late Registration: 8000 Rs (Registration after 15 th April 2023)
             </li>
             <li>Attending the Conference (without accepted paper) – 2000 Rs</li>
+            
           </ul>
         </div>
         <div
@@ -132,8 +133,8 @@ export default function Registration() {
               </li>
               <li>Pay the Fee</li>
               <li>
-                Download receipts generated in SBI collect and send it to 
-                 <b> fee.receipt@iiits.in</b> and cc <b>11.ieee.esdc@iiits.in</b>
+                Download receipts generated in SBI collect and send it to
+                <b> fee.receipt@iiits.in</b> and cc <b>11.ieee.esdc@iiits.in</b>
               </li>
             </ul>
           </ul>

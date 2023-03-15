@@ -33,7 +33,7 @@ const TablePage=(props)=>{
             },
             {
                 'name':'Early Registration due:',
-                'date':'15th April 2022'
+                'date':'1st April 2023'
             },
             {
                 'name':'Late Registration Due',

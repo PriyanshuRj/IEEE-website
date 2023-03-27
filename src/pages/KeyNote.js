@@ -9,31 +9,17 @@ const SpeakersList = [
     img: "/keynoteSpeaker1.jpeg",
   },
   {
-    name: "Dr. Priyadarsan Patra",
-    post: "Intel Corp. USA",
-    img: "/keynoteSpeaker2.jpeg",
-  },
-  {
-    name: "Dr. Chittaranjan Mandal",
-    post: "IIT Kharagpur, India",
-    img: "/keynoteSpeaker3.jpeg",
-  },
-];
-const SpeakersList2 = [
-  {
     name: "Dr. Huan Nguyen",
     post: "Middlesex University, London, UK",
     img:"/Huan_Nguyen.jpg"
-    
   },
   {
     name: "Mr. Nagaraju Chikoti",
     post: "Micron Technologies, Hyderabad, India",
     img:"/Nagaraju_Chikoti.jpg"
-    
   },
-
 ];
+
 export default function KeyNote() {
   return (
     <div>
@@ -46,11 +32,7 @@ export default function KeyNote() {
           return <Card speaker={speaker} key={index} index={index}/>;
         })}
       </div>
-      <div className=" mx-4 d-flex justify-content-around flex-wrap" style={{marginBottom : "21px"}}>
-        {SpeakersList2.map((speaker, index) => {
-          return <Card speaker={speaker} key={index} index={index}/>;
-        })}
-      </div>
+      
       <div style = {{paddingBottom: '3.8125rem'}}></div>
     </div>
   )

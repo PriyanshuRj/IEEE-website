@@ -103,6 +103,11 @@ export default function Header() {
                 <Link to="/other">
                   <NavDropdown.Item href="/">Other Committee</NavDropdown.Item>
                 </Link>
+                <Link to="/technicalreview">
+                  <NavDropdown.Item href="/">
+                    Technical Review Committee
+                  </NavDropdown.Item>
+                 </Link>
                 </div>
               </NavDropdown>
               <NavDropdown
@@ -119,7 +124,11 @@ export default function Header() {
                 onClick={() => ProgramBtn()}
                 >
 
-
+                <Link to="/schedule">
+                  <NavDropdown.Item href="/">
+                    Tentative Conference schedule
+                  </NavDropdown.Item>
+                </Link>
                 <Link to="/program">
                   <NavDropdown.Item href="/">
                     Track based Conference

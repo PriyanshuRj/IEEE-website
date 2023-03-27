@@ -1,0 +1,32 @@
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    overflow-wrap: break-word;
+    font-size: 1.125rem;
+
+}
+.heading{
+    text-align:center;
+    font-size:50px;
+    font-weight:700;
+    padding : 82px 10px 0 10px;
+    color: #1D619C;
+}
+
+table {
+    width: 800px;
+    height: 200px;
+    border-collapse: collapse;
+    }
+    
+    th {
+    border-bottom: 1px solid black;
+    border: 3px solid black;
+    text-align: center;
+    }
+    
+    td {
+    text-align: center;
+    border: 2px solid black;
+    }

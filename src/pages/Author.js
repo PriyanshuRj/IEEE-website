@@ -158,7 +158,7 @@ export default function Author() {
           >
             <li>Your paper must comply with the following specifications:</li>
             <li>
-              Paper Length: Maximum 6 pages |{" "}
+              Paper Length: Maximum 5 pages |{" "}
               <b>
                 The body of the paper (i.e. text, figures, tables) should be 3
                 pages max, while reference should be 1 page max.

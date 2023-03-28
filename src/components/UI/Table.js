@@ -29,11 +29,11 @@ const TablePage=(props)=>{
             },
             {
                 'name':'Camera-Ready Paper Submission due:',
-                'date':'15th April 2023'
+                'date':'5th April 2023'
             },
             {
                 'name':'Early Registration due:',
-                'date':'1st April 2023'
+                'date':'5th April 2023'
             },
             {
                 'name':'Late Registration Due',

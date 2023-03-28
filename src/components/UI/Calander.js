@@ -21,7 +21,7 @@ const TablePage = (props) => {
       },
       {
         name: "Camera-Ready Paper Submission due:",
-        date: "15th April 2023",
+        date: "5th April 2023",
       },
       {
         name: "Conference Date :",

@@ -1,6 +1,11 @@
 .navdiv {
   background-image: linear-gradient(to right,hsl(208, 69%, 36%) 60%,#f44949  100%), linear-gradient(to right, #1D619C 60%,#EF6C4C  100%);
 }
+.siteIdentity img {
+  max-width: 55px;
+  float: left;
+  margin: 0 10px 0 0;
+}
 .navItem {
   color: #fff !important;
   /* border-radius: 4px; */

@@ -15,7 +15,7 @@ export default function Footer() {
           <Col lg="12">
           
             <div className={styles.footer_text}>
-            <div className={styles.horizontalCutText}>Jointly Organized by </div>
+            {/* <div className={styles.horizontalCutText}>Jointly Organized by </div> */}
             <div className="col-lg-12">
             <div className={styles.logo_area}>
               <Row>

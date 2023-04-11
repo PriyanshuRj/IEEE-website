@@ -53,7 +53,7 @@ function App() {
           <Route exact path = "/technicalreview" element = {<TechnicalReview />} />
           <Route exact path = "/schedule" element={<Schedule />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </Fragment>
   );

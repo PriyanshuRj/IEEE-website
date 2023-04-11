@@ -23,13 +23,13 @@ export default function CurrentSponsers() {
       <div class="text-center">
         <img src="BannerPhotos/ieee-logo.png" class="rounded" alt="IEEE-logo" />
       </div>
-      <div class="text-center">
+      {/* <div class="text-center">
         <img
           src="BannerPhotos/sricity-logo.png"
           class="rounded"
           alt="Sricity-logo"
         />
-      </div>
+      </div> */}
       <div style={{ paddingBottom: "3.8125rem" }}></div>
     </div>
   );

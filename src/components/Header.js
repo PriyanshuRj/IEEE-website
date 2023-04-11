@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Styles from "../Styles/Header.module.css";
+import Sricity from "../Images/IIITSricity.jpg"
 import { Link } from "react-router-dom";
 export default function Header() {
   const [ComiteeShow, setComiteeShow] = useState(false);
@@ -63,6 +64,9 @@ export default function Header() {
               ESDC
             </Navbar.Brand>
           </Link>
+          <div className={Styles.siteIdentity}>
+            <a href="#"><img src={Sricity} alt="Site Name" /></a>
+          </div>  
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
